@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, Clock, Shield, Activity, Heart, Stethoscope, Zap } from "lucide-react";
 import PageHero from "@/components/PageHero";
 
 interface Procedure {
@@ -12,7 +12,9 @@ interface Procedure {
 
 interface ContentSection {
   title: string;
-  content: string;
+  content?: string;
+  bullets?: string[];
+  icon?: "clock" | "shield" | "activity" | "heart" | "stethoscope" | "zap";
 }
 
 interface ProcedureDetailPageProps {
@@ -27,6 +29,15 @@ interface ProcedureDetailPageProps {
   imageSrc?: string;
   imageAlt?: string;
 }
+
+const iconMap = {
+  clock: Clock,
+  shield: Shield,
+  activity: Activity,
+  heart: Heart,
+  stethoscope: Stethoscope,
+  zap: Zap,
+};
 
 const ProcedureDetailPage = ({
   title,
@@ -45,9 +56,9 @@ const ProcedureDetailPage = ({
 
     {/* Overview with optional image */}
     {(overview || imageSrc) && (
-      <section className="py-16">
-        <div className="container max-w-5xl">
-          <div className={`${imageSrc ? "grid lg:grid-cols-2 gap-12 items-start" : ""}`}>
+      <section className="py-14">
+        <div className="container max-w-6xl">
+          <div className={`${imageSrc ? "grid lg:grid-cols-2 gap-10 items-center" : ""}`}>
             {overview && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -77,21 +88,68 @@ const ProcedureDetailPage = ({
       </section>
     )}
 
-    {/* Detailed content sections */}
+    {/* Visual content sections — cards with bullets */}
     {sections && sections.length > 0 && (
-      <section className="py-12">
-        <div className="container max-w-5xl">
-          <div className="space-y-10">
-            {sections.map((s, i) => (
+      <section className="py-12 bg-muted/30">
+        <div className="container max-w-6xl">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {sections.map((s, i) => {
+              const Icon = s.icon ? iconMap[s.icon] : Stethoscope;
+              return (
+                <motion.div
+                  key={s.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08 }}
+                  className="rounded-2xl border border-border bg-card p-6 hover:shadow-medical transition-shadow"
+                >
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="rounded-xl bg-primary/10 p-2.5">
+                      <Icon className="h-5 w-5 text-primary" />
+                    </div>
+                    <h3 className="text-lg font-heading font-bold text-foreground">{s.title}</h3>
+                  </div>
+                  {s.content && (
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-3">{s.content}</p>
+                  )}
+                  {s.bullets && s.bullets.length > 0 && (
+                    <ul className="space-y-2">
+                      {s.bullets.map((b) => (
+                        <li key={b} className="flex items-start gap-2 text-sm text-foreground">
+                          <Check className="h-4 w-4 text-secondary mt-0.5 shrink-0" />
+                          <span>{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* Benefits */}
+    {benefits && benefits.length > 0 && (
+      <section className="py-14">
+        <div className="container max-w-6xl">
+          <h2 className="text-2xl font-bold font-heading text-foreground mb-8 text-center">Why Patients Choose This Procedure</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {benefits.map((b, i) => (
               <motion.div
-                key={s.title}
-                initial={{ opacity: 0, y: 15 }}
+                key={b}
+                initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.05 }}
+                transition={{ delay: i * 0.04 }}
+                className="flex items-start gap-3 rounded-xl bg-secondary/5 border border-secondary/10 p-4"
               >
-                <h2 className="text-2xl font-bold font-heading text-foreground mb-4">{s.title}</h2>
-                <p className="text-muted-foreground leading-relaxed">{s.content}</p>
+                <div className="rounded-full bg-secondary/15 p-1 mt-0.5 shrink-0">
+                  <Check className="h-3.5 w-3.5 text-secondary" />
+                </div>
+                <span className="text-sm font-medium text-foreground">{b}</span>
               </motion.div>
             ))}
           </div>
@@ -99,66 +157,52 @@ const ProcedureDetailPage = ({
       </section>
     )}
 
-    {benefits && benefits.length > 0 && (
-      <section className="py-16 bg-muted/50">
-        <div className="container max-w-5xl">
-          <h2 className="text-2xl font-bold font-heading text-foreground mb-6">Key Benefits</h2>
-          <div className="grid sm:grid-cols-2 gap-3">
-            {benefits.map((b) => (
-              <div key={b} className="flex items-start gap-2.5 text-sm text-foreground">
-                <div className="rounded-full bg-secondary/10 p-1 mt-0.5 shrink-0">
-                  <Check className="h-3.5 w-3.5 text-secondary" />
+    {/* Sub-procedures list */}
+    {procedures.length > 0 && (
+      <section className="py-14 bg-muted/30">
+        <div className="container max-w-6xl">
+          <h2 className="text-2xl font-bold font-heading text-foreground mb-8">
+            {procedures.length === 1 ? "Overview" : "Procedures & Services"}
+          </h2>
+          <div className="grid md:grid-cols-2 gap-5">
+            {procedures.map((p, i) => (
+              <motion.div
+                key={p.name}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05 }}
+                className="rounded-2xl border border-border bg-card p-6 hover:shadow-medical transition-shadow"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-lg font-heading font-semibold text-foreground mb-2">{p.name}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{p.description}</p>
+                  </div>
+                  {p.href && (
+                    <Link to={p.href} className="text-primary hover:text-primary/80 shrink-0 mt-1">
+                      <ArrowRight className="h-5 w-5" />
+                    </Link>
+                  )}
                 </div>
-                {b}
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
     )}
 
-    <section className="py-16">
-      <div className="container max-w-5xl">
-        {procedures.length > 0 && (
-          <>
-            <h2 className="text-2xl font-bold font-heading text-foreground mb-8">
-              {procedures.length === 1 ? "Overview" : "Procedures & Services"}
-            </h2>
-            <div className="grid gap-5">
-              {procedures.map((p, i) => (
-                <motion.div
-                  key={p.name}
-                  initial={{ opacity: 0, y: 15 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.05 }}
-                  className="rounded-2xl border border-border bg-card p-6 hover:shadow-medical transition-shadow"
-                >
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <h3 className="text-lg font-heading font-semibold text-foreground mb-2">{p.name}</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">{p.description}</p>
-                    </div>
-                    {p.href && (
-                      <Link to={p.href} className="text-primary hover:text-primary/80 shrink-0 mt-1">
-                        <ArrowRight className="h-5 w-5" />
-                      </Link>
-                    )}
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </>
-        )}
-
-        <div className="text-center mt-12">
-          <Button asChild size="lg">
-            <Link to="/book-appointment">
-              {ctaText}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-        </div>
+    {/* CTA */}
+    <section className="py-14">
+      <div className="container max-w-4xl text-center">
+        <h2 className="text-2xl font-bold font-heading text-foreground mb-3">Ready to Take the Next Step?</h2>
+        <p className="text-muted-foreground mb-6">Book a consultation with Dr. Randeep Wadhawan to discuss your treatment options.</p>
+        <Button asChild size="lg">
+          <Link to="/book-appointment">
+            {ctaText}
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
+        </Button>
       </div>
     </section>
   </div>
