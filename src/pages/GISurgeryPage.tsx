@@ -1,11 +1,17 @@
 import ProcedureDetailPage from "@/components/ProcedureDetailPage";
+import SEOHead from "@/components/SEOHead";
 
 const GISurgeryPage = () => (
-  <ProcedureDetailPage
-    title="GI Surgery"
-    subtitle="Advanced gastrointestinal surgery — over 35,000 laparoscopic surgeries performed. Specializing in Upper GI and Colorectal procedures."
-    breadcrumb="Procedures > GI Surgery"
-    overview="Dr. Wadhawan specializes in routine and advanced gastrointestinal surgeries with a focus on Upper Gastrointestinal and Colorectal procedures. With over 35,000 laparoscopic surgeries performed and certification by the European Coloproctology Society, he offers both robotic and laparoscopic approaches, selecting the best technique for each patient's unique needs. Over 5,000 MIPH (Minimally Invasive Procedures for Haemorrhoids) & STARR procedures have been performed."
+  <>
+    <SEOHead
+      title="Best GI Surgery in Delhi | Robotic & Laparoscopic | Dr. Randeep Wadhawan"
+      description="Best GI surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. Gallbladder, colon, rectal, liver, pancreatic surgery. 35,000+ laparoscopic procedures. Book now."
+    />
+    <ProcedureDetailPage
+      title="GI Surgery in Delhi"
+      subtitle="Advanced gastrointestinal surgery in Delhi — over 35,000 laparoscopic surgeries performed at Max Hospital, Dwarka."
+      breadcrumb="Procedures > GI Surgery in Delhi"
+      overview="Dr. Wadhawan is Delhi's leading GI surgeon, specializing in routine and advanced gastrointestinal surgeries at Max Super Speciality Hospital, Dwarka. With over 35,000 laparoscopic surgeries performed and certification by the European Coloproctology Society, he offers both robotic and laparoscopic approaches for gallbladder, colon, rectal, liver, and pancreatic conditions. Patients across Delhi NCR choose him for the best GI surgical outcomes."
     procedures={[
       { name: "Gallbladder Surgery (Cholecystectomy)", description: "Removal of the gallbladder for gallstones or gallbladder disease. Available in robotic and laparoscopic approaches with same-day discharge in most cases.", href: "/robotic-gi-surgery/gallbladder" },
       { name: "Colon & Rectal Surgery", description: "Treatment of colon cancer, rectal malignancy, rectal prolapse, and other colorectal conditions using robotic and laparoscopic approaches.", href: "/robotic-gi-surgery/colon" },
