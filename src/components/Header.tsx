@@ -261,8 +261,8 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-3 shrink-0">
-            <Button asChild size="sm" className="hidden sm:inline-flex">
-              <Link to="/book-appointment">Book Appointment</Link>
+            <Button size="sm" className="hidden sm:inline-flex" onClick={() => { import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
+              Book Appointment
             </Button>
             <button
               className="xl:hidden p-2 text-foreground"
@@ -345,8 +345,8 @@ const Header = () => {
                   </div>
                 ))}
                 <div className="pt-3">
-                  <Button asChild className="w-full">
-                    <Link to="/book-appointment" onClick={() => setMobileOpen(false)}>Book Appointment</Link>
+                  <Button className="w-full" onClick={() => { setMobileOpen(false); import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
+                    Book Appointment
                   </Button>
                 </div>
               </nav>

@@ -20,11 +20,9 @@ const CTASection = () => (
           Discover how robotic surgery can transform your treatment with faster recovery and superior outcomes.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Button size="lg" asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-            <Link to="/contact">
+          <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground" onClick={() => { import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
               Book Consultation
               <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
           </Button>
           <Button size="lg" variant="outline" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
             <a href="tel:+917042373880">
