@@ -90,7 +90,11 @@ const faqs = [
   },
   {
     q: "How do I book a consultation with Dr. Randeep Wadhawan?",
-    a: "You can book a consultation through our online appointment form, call us at +91 70423 73880, or message on WhatsApp. We offer both in-person consultations at Max Hospital, Dwarka and virtual consultations for outstation patients.",
+    a: "You can book a consultation through our online appointment form, call us at +91 7042373880, or message on WhatsApp. We offer in-person consultations at Max Super Speciality Hospital, Dwarka, New Delhi, and virtual consultations for outstation patients across India.",
+  },
+  {
+    q: "Why choose Dr. Randeep Wadhawan for robotic surgery in Delhi?",
+    a: "Dr. Wadhawan is Delhi's most experienced robotic surgeon with 60,000+ successful procedures, 20+ years of expertise, and 50+ national and international awards. He operates at Max Super Speciality Hospital, Dwarka — a NABH-accredited and OSSI Centre of Excellence for Bariatric Surgery. Patients from across Delhi NCR, India, and internationally choose him for his precision and outcomes.",
   },
 ];
 
