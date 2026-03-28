@@ -12,7 +12,12 @@ const videos = [
 
 const VideosPage = () => (
   <div>
-    <PageHero title="Video Library" subtitle="Educational videos on robotic surgery, patient experiences, and surgical techniques." breadcrumb="Media > Videos" />
+    <SEOHead
+      title="Surgery Videos | Robotic & Bariatric Surgery Delhi | Dr. Randeep Wadhawan"
+      description="Watch robotic surgery, bariatric procedure & patient experience videos by Dr. Randeep Wadhawan, Delhi's best robotic surgeon at Max Hospital Dwarka."
+      canonical="https://www.randeepwadhawan.com/media/videos"
+    />
+    <PageHero title="Video Library" subtitle="Educational videos on robotic surgery, patient experiences, and surgical techniques by Dr. Wadhawan at Max Hospital, Delhi." breadcrumb="Resources > Videos" />
 
     <section className="py-20">
       <div className="container">

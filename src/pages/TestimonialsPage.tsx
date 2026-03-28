@@ -14,10 +14,15 @@ const testimonials = [
 
 const TestimonialsPage = () => (
   <div>
+    <SEOHead
+      title="Patient Testimonials | Robotic Surgery Reviews Delhi | Dr. Randeep Wadhawan"
+      description="Read real patient testimonials for robotic, bariatric & GI surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka."
+      canonical="https://www.randeepwadhawan.com/patient-resources/testimonials"
+    />
     <PageHero
-      title="Patient Testimonials"
-      subtitle="Hear from patients whose lives have been transformed by Dr. Wadhawan's surgical expertise."
-      breadcrumb="Patient Resources > Testimonials"
+      title="Patient Testimonials — Delhi"
+      subtitle="Hear from patients across Delhi NCR whose lives have been transformed by Dr. Wadhawan's surgical expertise."
+      breadcrumb="Resources > Testimonials"
     />
 
     <section className="py-20">

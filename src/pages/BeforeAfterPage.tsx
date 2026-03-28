@@ -4,10 +4,15 @@ import SEOHead from "@/components/SEOHead";
 
 const BeforeAfterPage = () => (
   <div>
+    <SEOHead
+      title="Before & After Results | Weight Loss Surgery Delhi | Dr. Randeep Wadhawan"
+      description="Before and after bariatric surgery results in Delhi. Real patient transformations by Dr. Randeep Wadhawan at Max Hospital Dwarka."
+      canonical="https://www.randeepwadhawan.com/patient-resources/before-after"
+    />
     <PageHero
-      title="Before & After Results"
-      subtitle="Real transformations from our patients. Results may vary based on individual conditions."
-      breadcrumb="Patient Resources > Before & After"
+      title="Before & After Results — Delhi"
+      subtitle="Real transformations from our patients in Delhi NCR. Results may vary based on individual conditions."
+      breadcrumb="Resources > Before & After"
     />
 
     <section className="py-20">

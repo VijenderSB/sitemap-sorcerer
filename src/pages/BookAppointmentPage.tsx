@@ -88,13 +88,11 @@ const BookAppointmentPage = () => {
                   <Clock className="h-5 w-5 text-primary" /> Consultation Hours
                 </h3>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>Monday – Friday: 10:00 AM – 6:00 PM</p>
-                  <p>Saturday: 10:00 AM – 2:00 PM</p>
-                  <p>Sunday: By Appointment Only</p>
+                  <p>Monday – Saturday: 10:00 AM – 6:00 PM</p>
                 </div>
                 <div className="flex items-start gap-2 mt-4">
                   <MapPin className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                  <p className="text-sm text-muted-foreground">Max Super Speciality Hospital, Saket, New Delhi</p>
+                  <p className="text-sm text-muted-foreground">Max Super Speciality Hospital, Plot No. 1, Sector 10, Dwarka, New Delhi – 110075</p>
                 </div>
               </div>
             </div>

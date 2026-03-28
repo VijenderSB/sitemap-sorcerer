@@ -39,10 +39,15 @@ const faqCategories = [
 
 const FAQsPage = () => (
   <div>
+    <SEOHead
+      title="FAQs — Robotic & Bariatric Surgery in Delhi | Dr. Randeep Wadhawan"
+      description="Frequently asked questions about robotic surgery, bariatric surgery, hernia repair in Delhi. Dr. Randeep Wadhawan at Max Hospital Dwarka answers your queries."
+      canonical="https://www.randeepwadhawan.com/patient-resources/faqs"
+    />
     <PageHero
-      title="Frequently Asked Questions"
-      subtitle="Find answers to common questions about robotic surgery, bariatric procedures, and patient care."
-      breadcrumb="Patient Resources > FAQs"
+      title="Frequently Asked Questions — Surgery in Delhi"
+      subtitle="Find answers to common questions about robotic surgery, bariatric procedures, and patient care at Max Hospital, Dwarka, Delhi."
+      breadcrumb="Resources > FAQs"
     />
 
     <section className="py-20">

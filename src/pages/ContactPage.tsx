@@ -23,6 +23,11 @@ const ContactPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Contact Dr. Randeep Wadhawan | Best Robotic Surgeon in Delhi | Max Hospital Dwarka"
+        description="Contact Dr. Randeep Wadhawan at Max Super Speciality Hospital, Dwarka, Delhi. Call +91 7042373880 for robotic, bariatric & GI surgery consultation."
+        canonical="https://www.randeepwadhawan.com/contact"
+      />
       <section className="bg-gradient-hero py-20">
         <div className="container">
           <motion.h1
@@ -30,10 +35,10 @@ const ContactPage = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl lg:text-5xl font-extrabold font-heading text-primary-foreground text-center"
           >
-            Reach Us
+            Contact Us in Delhi
           </motion.h1>
           <p className="text-primary-foreground/70 text-center mt-4 max-w-xl mx-auto">
-            Book a consultation or get a second opinion from Dr. Randeep Wadhawan.
+            Book a consultation or get a second opinion from Dr. Randeep Wadhawan at Max Hospital, Dwarka, New Delhi.
           </p>
         </div>
       </section>

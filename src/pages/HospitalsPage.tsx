@@ -7,9 +7,14 @@ import SEOHead from "@/components/SEOHead";
 
 const HospitalsPage = () => (
   <div>
+    <SEOHead
+      title="Max Hospital Dwarka Delhi | Dr. Randeep Wadhawan Location & Contact"
+      description="Visit Dr. Randeep Wadhawan at Max Super Speciality Hospital, Plot No. 1, Sector 10, Dwarka, New Delhi – 110075. Robotic surgery centre. Call +91 7042373880."
+      canonical="https://www.randeepwadhawan.com/hospitals"
+    />
     <PageHero
-      title="Hospital & Location"
-      subtitle="Dr. Wadhawan consults and operates at India's premier hospital."
+      title="Hospital & Location — Delhi"
+      subtitle="Dr. Wadhawan consults and operates at Max Super Speciality Hospital, Dwarka, New Delhi."
     />
 
     <section className="py-20">

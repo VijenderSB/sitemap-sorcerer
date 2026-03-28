@@ -13,7 +13,12 @@ const sections = [
 
 const MediaPage = () => (
   <div>
-    <PageHero title="Media & Education" subtitle="Stay informed with the latest insights on robotic surgery, patient health, and medical advances." />
+    <SEOHead
+      title="Media & Education | Robotic Surgery Delhi | Dr. Randeep Wadhawan"
+      description="Blogs, videos, patient stories & news about robotic surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka."
+      canonical="https://www.randeepwadhawan.com/media"
+    />
+    <PageHero title="Media & Education" subtitle="Stay informed with the latest insights on robotic surgery, patient health, and medical advances from Delhi." />
 
     <section className="py-20">
       <div className="container">

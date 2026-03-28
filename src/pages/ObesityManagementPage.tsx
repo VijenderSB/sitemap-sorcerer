@@ -69,8 +69,13 @@ const fadeUp = { initial: { opacity: 0, y: 20 }, whileInView: { opacity: 1, y: 0
 
 const ObesityManagementPage = () => (
   <>
+    <SEOHead
+      title="Best Obesity Management Centre in Delhi | Weight Loss Treatment | Dr. Randeep Wadhawan"
+      description="Comprehensive obesity management in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. Diet, pharmacotherapy, endoscopic & bariatric surgery. Book consultation."
+      canonical="https://www.randeepwadhawan.com/obesity-management"
+    />
     <PageHero
-      title="Obesity Management — Centre for Excellence"
+      title="Obesity Management Centre in Delhi"
       subtitle="Comprehensive. Compassionate. Cutting-edge. A 360° integrated approach to lasting weight loss."
       breadcrumb="Home > Obesity Management Centre"
     />

@@ -22,7 +22,12 @@ const blogPosts: BlogPost[] = [
 
 const BlogsPage = () => (
   <div>
-    <PageHero title="Blogs & Articles" subtitle="Expert insights on robotic surgery, bariatric care, and surgical innovation." breadcrumb="Media > Blogs" />
+    <SEOHead
+      title="Blogs — Robotic & Bariatric Surgery Delhi | Dr. Randeep Wadhawan"
+      description="Expert blogs on robotic surgery, bariatric surgery, hernia repair, GI surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka."
+      canonical="https://www.randeepwadhawan.com/media/blogs"
+    />
+    <PageHero title="Blogs & Articles" subtitle="Expert insights on robotic surgery, bariatric care, and surgical innovation from Dr. Wadhawan in Delhi." breadcrumb="Resources > Blogs" />
 
     <section className="py-20">
       <div className="container max-w-4xl">

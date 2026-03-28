@@ -71,7 +71,7 @@ const Index = () => (
     <TestimonialsSection />
     <BeforeAfterSection />
     <VideosSection />
-    <HospitalsSection />
+    
     <AwardsSection />
     <InternalLinksSection />
     <FAQSection />

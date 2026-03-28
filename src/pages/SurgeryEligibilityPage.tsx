@@ -39,9 +39,14 @@ const SurgeryEligibilityPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Surgery Eligibility Check | Bariatric Surgery Delhi | Dr. Randeep Wadhawan"
+        description="Check if you're eligible for bariatric or weight loss surgery in Delhi. Free eligibility assessment. Dr. Randeep Wadhawan, Max Hospital Dwarka."
+        canonical="https://www.randeepwadhawan.com/tools/eligibility"
+      />
       <PageHero
-        title="Surgery Eligibility Check"
-        subtitle="Find out if you may be a candidate for bariatric or metabolic surgery."
+        title="Surgery Eligibility Check — Delhi"
+        subtitle="Find out if you may be a candidate for bariatric or metabolic surgery at Max Hospital, Dwarka, Delhi."
         breadcrumb="Tools > Surgery Eligibility"
       />
 

@@ -27,10 +27,15 @@ const PatientStoriesPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Patient Stories & Testimonials | Robotic Surgery Delhi | Dr. Randeep Wadhawan"
+        description="100+ real patient stories from robotic & bariatric surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. Read transformation journeys."
+        canonical="https://www.randeepwadhawan.com/media/patient-stories"
+      />
       <PageHero
-        title="Patient Stories"
-        subtitle="100+ real stories of transformation and healing across all our surgical services."
-        breadcrumb="Media > Patient Stories"
+        title="Patient Stories — Delhi"
+        subtitle="100+ real stories of transformation and healing from patients across Delhi NCR."
+        breadcrumb="Resources > Patient Stories"
       />
 
       {/* Category Filter */}
