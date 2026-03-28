@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const testimonials = [
   { name: "Rajesh Kumar", procedure: "Robotic Sleeve Gastrectomy", text: "Dr. Wadhawan's robotic surgery changed my life. I lost 40 kgs and the recovery was incredibly fast. I was back to work within a week!" },
