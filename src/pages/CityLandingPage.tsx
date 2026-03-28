@@ -148,11 +148,9 @@ const CityLandingPage = () => {
                   : `Patients from ${city.name} trust Dr. Randeep Wadhawan for advanced robotic and laparoscopic surgery at Max Super Speciality Hospital, Dwarka, New Delhi. With 60,000+ successful procedures and 30+ years of experience, he is India's most sought-after robotic surgeon.`}
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" asChild>
-                  <Link to="/book-appointment">
+                <Button size="lg" onClick={() => { import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
                     Book Consultation
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:+917042373880">
