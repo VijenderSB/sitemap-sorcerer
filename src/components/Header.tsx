@@ -185,8 +185,14 @@ const Header = () => {
       {/* Main nav */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         <div className="container flex h-16 items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 shrink-0">
-            <img src={logoImg} alt="Dr. Randeep Wadhawan" className="h-12 w-auto" width={512} height={512} />
+          <Link to="/" className="flex items-center gap-2.5 shrink-0">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+              <span className="text-lg font-bold text-primary-foreground font-heading">RW</span>
+            </div>
+            <div className="leading-tight">
+              <span className="block text-sm font-bold font-heading text-foreground">Dr. Randeep Wadhawan</span>
+              <span className="block text-[11px] text-muted-foreground">Robotic & Laparoscopic Surgeon</span>
+            </div>
           </Link>
 
           {/* Desktop nav */}
