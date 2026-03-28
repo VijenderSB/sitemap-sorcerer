@@ -51,8 +51,8 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading leading-tight text-primary-foreground mb-6"
             >
-              Precision Robotic Surgery for{" "}
-              <span className="text-medical-teal">Better Outcomes</span>
+              Best Robotic Surgeon in Delhi for{" "}
+              <span className="text-medical-teal">GI & Bariatric Surgery</span>
             </motion.h1>
 
             <motion.p
