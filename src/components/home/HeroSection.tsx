@@ -109,10 +109,13 @@ const HeroSection = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/15 text-primary-foreground placeholder:text-primary-foreground/40 focus-visible:ring-secondary"
               />
               <Input
-                placeholder="Email Address"
-                type="email"
-                value={form.email}
-                onChange={(e) => setForm({ ...form, email: e.target.value })}
+                placeholder="Age *"
+                required
+                type="number"
+                min="1"
+                max="120"
+                value={form.age}
+                onChange={(e) => setForm({ ...form, age: e.target.value })}
                 className="bg-primary-foreground/10 border-primary-foreground/15 text-primary-foreground placeholder:text-primary-foreground/40 focus-visible:ring-secondary"
               />
               <Textarea
