@@ -2,12 +2,11 @@ import { motion } from "framer-motion";
 import PageHero from "@/components/PageHero";
 
 const videos = [
-  { title: "How Robotic Surgery Works", desc: "An animated explanation of the robotic surgical system and its advantages." },
-  { title: "Patient Testimonial — Robotic Sleeve Gastrectomy", desc: "Rajesh shares his weight loss journey after robotic bariatric surgery." },
-  { title: "Robotic vs Laparoscopic: Key Differences", desc: "Dr. Wadhawan explains when robotic surgery is preferred over laparoscopic." },
-  { title: "What to Expect on Surgery Day", desc: "A step-by-step walkthrough of your surgery day experience." },
-  { title: "Recovery After Robotic Hernia Surgery", desc: "Tips and timeline for recovering from robotic-assisted hernia repair." },
-  { title: "Understanding BMI and Bariatric Eligibility", desc: "Learn how BMI is calculated and when weight loss surgery is recommended." },
+  { id: "LOa9oeapp3c", title: "Robotic Surgery Insights" },
+  { id: "L6JqkKPTQrg", title: "Advanced Bariatric Procedures" },
+  { id: "wPzV4yzGfx8", title: "Patient Success Stories" },
+  { id: "BXHfdb9k1P0", title: "Minimally Invasive Techniques" },
+  { id: "AXH6wSzJ_2Y", title: "GI Surgery Excellence" },
 ];
 
 const VideosPage = () => (
@@ -19,22 +18,39 @@ const VideosPage = () => (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {videos.map((v, i) => (
             <motion.div
-              key={v.title}
+              key={v.id}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
               className="rounded-2xl border border-border bg-card overflow-hidden hover:shadow-medical transition-shadow"
             >
-              <div className="aspect-video bg-muted flex items-center justify-center text-muted-foreground">
-                ▶ Video
+              <div className="aspect-video">
+                <iframe
+                  src={`https://www.youtube.com/embed/${v.id}`}
+                  title={v.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                  loading="lazy"
+                />
               </div>
               <div className="p-5">
-                <h3 className="font-heading font-semibold text-foreground mb-1.5">{v.title}</h3>
-                <p className="text-sm text-muted-foreground">{v.desc}</p>
+                <h3 className="font-heading font-semibold text-foreground">{v.title}</h3>
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <a
+            href="https://www.youtube.com/@randeepwadhawan7610/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
+          >
+            View All Videos on YouTube →
+          </a>
         </div>
       </div>
     </section>
