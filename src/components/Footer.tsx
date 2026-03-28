@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
+import logoImg from "@/assets/logo-dr-wadhawan.png";
 
 const footerLinks = [
   {
