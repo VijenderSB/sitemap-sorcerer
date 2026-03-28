@@ -91,6 +91,23 @@ const Footer = () => (
           <p className="text-sm text-primary-foreground/60">
             Plot No. 1, Sector 10, Dwarka, New Delhi – 110075
           </p>
+          <div className="flex items-center gap-3 mt-4">
+            <a href="https://www.facebook.com/DrRandeepWadhawan" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="h-9 w-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary/80 transition">
+              <Facebook className="h-4 w-4 text-primary-foreground" />
+            </a>
+            <a href="https://www.instagram.com/drrandeepwadhawan" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="h-9 w-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary/80 transition">
+              <Instagram className="h-4 w-4 text-primary-foreground" />
+            </a>
+            <a href="https://www.youtube.com/@DrRandeepWadhawan" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="h-9 w-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary/80 transition">
+              <Youtube className="h-4 w-4 text-primary-foreground" />
+            </a>
+            <a href="https://twitter.com/DrRWadhawan" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="h-9 w-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary/80 transition">
+              <Twitter className="h-4 w-4 text-primary-foreground" />
+            </a>
+            <a href="https://www.linkedin.com/in/drrandeepwadhawan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="h-9 w-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary/80 transition">
+              <Linkedin className="h-4 w-4 text-primary-foreground" />
+            </a>
+          </div>
         </div>
 
         <div>
