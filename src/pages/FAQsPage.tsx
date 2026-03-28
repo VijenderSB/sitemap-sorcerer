@@ -30,7 +30,7 @@ const faqCategories = [
     title: "General Questions",
     faqs: [
       { q: "Does insurance cover these surgeries?", a: "Many insurance providers now cover bariatric and robotic surgeries. Our team can help verify your coverage and assist with claims." },
-      { q: "How do I book a consultation?", a: "You can book online through our website, call us at +91 99999 99999, or reach us on WhatsApp for quick scheduling." },
+      { q: "How do I book a consultation?", a: "You can book online through our website, call us at +91 7042373880, or reach us on WhatsApp for quick scheduling." },
       { q: "What should I bring to my first consultation?", a: "Bring your medical records, current medications list, previous test reports, and any insurance documents." },
       { q: "Do you offer second opinions?", a: "Yes, Dr. Wadhawan provides second opinions for patients who have been advised surgery elsewhere and want expert guidance." },
     ],
