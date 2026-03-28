@@ -206,6 +206,35 @@ const CityLandingPage = () => {
         </div>
       </section>
 
+      {/* Robotic Surgery Image Banner */}
+      <section className="py-16">
+        <div className="container">
+          <motion.div {...fadeIn} className="relative rounded-2xl overflow-hidden shadow-medical-lg">
+            <img
+              src={surgeryRoboticImg}
+              alt={`Robotic Surgery for ${city.name} patients — Da Vinci precision care at Max Hospital Dwarka, Delhi`}
+              className="w-full h-64 lg:h-96 object-cover"
+              loading="lazy"
+              width={1200}
+              height={400}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-foreground/70 to-transparent flex items-center">
+              <div className="p-8 lg:p-12 max-w-lg">
+                <h2 className="text-2xl lg:text-3xl font-bold font-heading text-white mb-3">
+                  Robotic Surgery — The Future of Precision Care
+                </h2>
+                <p className="text-white/80 text-sm lg:text-base mb-4">
+                  Da Vinci robotic system offers 3D HD visualization, 360° wrist articulation, and sub-millimeter precision for safer, faster-recovery surgeries.
+                </p>
+                <Button size="lg" variant="secondary" asChild>
+                  <Link to="/robotic-surgery">Explore Robotic Surgery</Link>
+                </Button>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Services */}
       <section className="py-16 bg-muted/50">
         <div className="container">
