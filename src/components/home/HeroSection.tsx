@@ -15,7 +15,7 @@ const HeroSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({ title: "Appointment Request Sent", description: "We will contact you shortly to confirm your appointment." });
-    setForm({ name: "", phone: "", email: "", message: "" });
+    setForm({ name: "", phone: "", age: "", message: "" });
   };
 
   return (
