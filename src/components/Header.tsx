@@ -130,8 +130,14 @@ const navigation: NavItem[] = [
       { name: "News & Media", href: "/media/news" },
     ],
   },
-  { name: "Hospitals", href: "/hospitals" },
-  { name: "Contact", href: "/contact" },
+  {
+    name: "Contact",
+    href: "/contact",
+    children: [
+      { name: "Contact Us", href: "/contact" },
+      { name: "Hospitals", href: "/hospitals" },
+    ],
+  },
 ];
 
 const Header = () => {
