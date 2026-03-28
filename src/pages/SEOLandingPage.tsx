@@ -3,9 +3,9 @@ import ProcedureDetailPage from "@/components/ProcedureDetailPage";
 const seoPages: Record<string, { title: string; subtitle: string; overview: string; breadcrumb: string }> = {
   "robotic-surgeon-delhi": {
     title: "Best Robotic Surgeon in Delhi",
-    subtitle: "Dr. Randeep Wadhawan — Delhi's top robotic surgeon with 5000+ successful procedures.",
-    overview: "Looking for the best robotic surgeon in Delhi? Dr. Randeep Wadhawan is a pioneer in robotic-assisted surgery with over 20 years of experience. Specializing in robotic GI surgery, bariatric surgery, and hernia repair, he operates at Max Super Speciality Hospital and other premier Delhi hospitals. His expertise in the latest robotic surgical systems ensures patients receive the highest standard of care with faster recovery, minimal scarring, and superior outcomes.",
-    breadcrumb: "SEO > Robotic Surgeon Delhi",
+    subtitle: "Dr. Randeep Wadhawan — Delhi's top robotic surgeon with 60,000+ successful procedures at Max Hospital, Dwarka.",
+    overview: "Looking for the best robotic surgeon in Delhi? Dr. Randeep Wadhawan is a pioneer in robotic-assisted surgery with over 30 years of experience. Specializing in robotic GI surgery, bariatric surgery, and hernia repair, he operates at Max Super Speciality Hospital, Dwarka, New Delhi. His expertise in the Da Vinci robotic surgical system ensures patients receive the highest standard of care with faster recovery, minimal scarring, and superior outcomes.",
+    breadcrumb: "Best Robotic Surgeon in Delhi",
   },
   "robotic-bariatric-surgeon-delhi": {
     title: "Best Robotic Bariatric Surgeon in Delhi",
