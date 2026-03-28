@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.randeepwadhawan.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.randeepwadhawan.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/about/gallery</loc><priority>0.5</priority></url>
   <url><loc>https://www.randeepwadhawan.com/contact</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/book-appointment</loc><priority>0.9</priority></url>
   <url><loc>https://www.randeepwadhawan.com/hospitals</loc><priority>0.7</priority></url>
@@ -22,21 +23,43 @@
   <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery/liver</loc><priority>0.7</priority></url>
   <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery/pancreatic</loc><priority>0.7</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery/splenectomy</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery/achalasia</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-advanced-gi-surgery/portal-hypertension</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric/sleeve</loc><priority>0.7</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric/gastric-bypass</loc><priority>0.7</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric/mini-gastric-bypass</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric/gastric-banding</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/bariatric/revision</loc><priority>0.6</priority></url>
   <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi/hernia</loc><priority>0.7</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi/gallbladder</loc><priority>0.7</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi/appendix</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi/colon</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgery/gi/gastric-cancer</loc><priority>0.6</priority></url>
   <url><loc>https://www.randeepwadhawan.com/bariatric-surgery</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/hernia-surgery</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/gi-surgery</loc><priority>0.8</priority></url>
   <url><loc>https://www.randeepwadhawan.com/metabolic-surgery</loc><priority>0.7</priority></url>
   <url><loc>https://www.randeepwadhawan.com/obesity-management</loc><priority>0.7</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/bmi-calculator</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/tools/bmi-calculator</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/tools/eligibility</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/tools/cost-estimator</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/patient-resources/journey</loc><priority>0.6</priority></url>
   <url><loc>https://www.randeepwadhawan.com/patient-resources/faqs</loc><priority>0.6</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/media/patient-stories</loc><priority>0.6</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/media/videos</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/patient-resources/before-after</loc><priority>0.5</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/patient-resources/testimonials</loc><priority>0.5</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/patient-resources/insurance</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/media</loc><priority>0.5</priority></url>
   <url><loc>https://www.randeepwadhawan.com/media/blogs</loc><priority>0.6</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/best/robotic-surgeon-delhi</loc><priority>0.8</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/best/robotic-bariatric-surgeon-delhi</loc><priority>0.8</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/best/robotic-hernia-surgeon-delhi</loc><priority>0.8</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/best/robotic-gi-surgeon-delhi</loc><priority>0.8</priority></url>
-  <url><loc>https://www.randeepwadhawan.com/best/laparoscopic-surgeon-delhi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/media/videos</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/media/patient-stories</loc><priority>0.6</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/media/news</loc><priority>0.5</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-surgeon-delhi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-bariatric-surgeon-delhi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-hernia-surgeon-delhi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/robotic-gi-surgeon-delhi</loc><priority>0.8</priority></url>
+  <url><loc>https://www.randeepwadhawan.com/laparoscopic-surgeon-delhi</loc><priority>0.8</priority></url>
 </urlset>

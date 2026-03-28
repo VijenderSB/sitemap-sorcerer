@@ -49,12 +49,12 @@ const SEOLandingPage = ({ slug }: SEOLandingPageProps) => {
       breadcrumb={page.breadcrumb}
       procedures={[]}
       benefits={[
-        "20+ years of surgical experience",
-        "5000+ successful procedures",
-        "State-of-the-art robotic surgical systems",
-        "Operating at Delhi's best hospitals",
-        "Internationally trained and recognized",
-        "Comprehensive pre and post-operative care",
+        "30+ years of surgical experience",
+        "60,000+ successful procedures",
+        "Da Vinci robotic surgical system at Max Hospital Dwarka",
+        "Chairman — GI, Bariatric, Laparoscopic & Robotic Surgery",
+        "Internationally trained — FACS(USA), FRCS(Edinburgh)",
+        "Comprehensive pre and post-operative care in Delhi",
       ]}
       ctaText="Book Free Consultation"
     />
