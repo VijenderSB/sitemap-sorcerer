@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, IndianRupee } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const procedures = [
   { name: "Robotic Sleeve Gastrectomy", min: 350000, max: 500000 },
