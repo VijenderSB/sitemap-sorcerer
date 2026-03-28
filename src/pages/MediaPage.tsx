@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, BookOpen, Video, Users, Newspaper } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const sections = [
   { icon: BookOpen, title: "Blogs", desc: "Expert articles on robotic surgery, bariatric procedures, hernia treatment, and GI health.", href: "/media/blogs", count: "50+ Articles" },
