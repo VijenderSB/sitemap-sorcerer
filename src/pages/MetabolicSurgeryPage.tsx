@@ -29,6 +29,7 @@ const MetabolicSurgeryPage = () => (
       { name: "Metabolic Syndrome Surgery", description: "Targets the cluster of conditions — high blood pressure, high blood sugar, excess abdominal fat, and abnormal cholesterol — through surgical intervention for lasting improvement." },
     ]}
   />
+  </>
 );
 
 export default MetabolicSurgeryPage;

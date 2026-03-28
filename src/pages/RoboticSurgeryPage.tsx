@@ -28,9 +28,13 @@ const candidates = [
 
 const RoboticSurgeryPage = () => (
   <div>
+    <SEOHead
+      title="Best Robotic Surgery in Delhi | Da Vinci Robot | Dr. Randeep Wadhawan"
+      description="Best robotic surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. Da Vinci robotic system for GI, bariatric, hernia surgery. Book consultation."
+    />
     <PageHero
-      title="Robotic Assisted Surgery"
-      subtitle="The most advanced approach to minimally invasive surgery — precision, safety, and faster recovery."
+      title="Robotic Assisted Surgery in Delhi"
+      subtitle="Delhi's most advanced robotic surgery — precision, safety, and faster recovery at Max Hospital, Dwarka."
     />
 
     {/* What is Robotic Surgery */}

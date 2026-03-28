@@ -31,6 +31,7 @@ const GISurgeryPage = () => (
       "State-of-the-art infrastructure",
     ]}
   />
+  </>
 );
 
 export default GISurgeryPage;

@@ -28,6 +28,7 @@ const HerniaSurgeryPage = () => (
       { name: "Hiatus Hernia Repair", description: "Repair of diaphragmatic hernias associated with esophageal reflux, often combined with fundoplication for acid reflux prevention." },
     ]}
   />
+  </>
 );
 
 export default HerniaSurgeryPage;
