@@ -1,44 +1,99 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
+
+const footerLinks = [
+  {
+    title: "Robotic Surgery",
+    links: [
+      { name: "Robotic Surgery Overview", href: "/robotic-surgery" },
+      { name: "Robotic Bariatric Surgery", href: "/robotic-bariatric-surgery" },
+      { name: "Robotic GI Surgery", href: "/robotic-gi-surgery" },
+      { name: "Robotic Advanced GI Surgery", href: "/robotic-advanced-gi-surgery" },
+      { name: "Why Robotic Surgery", href: "/why-robotic-surgery" },
+    ],
+  },
+  {
+    title: "Laparoscopic Surgery",
+    links: [
+      { name: "Laparoscopic Bariatric", href: "/laparoscopic-surgery/bariatric" },
+      { name: "Laparoscopic GI Surgery", href: "/laparoscopic-surgery/gi" },
+      { name: "Lap. Sleeve Gastrectomy", href: "/laparoscopic-surgery/bariatric/sleeve" },
+      { name: "Lap. Gastric Bypass", href: "/laparoscopic-surgery/bariatric/gastric-bypass" },
+      { name: "Lap. Hernia Surgery", href: "/laparoscopic-surgery/gi/hernia" },
+    ],
+  },
+  {
+    title: "Procedures",
+    links: [
+      { name: "Bariatric Surgery", href: "/bariatric-surgery" },
+      { name: "Hernia Surgery", href: "/hernia-surgery" },
+      { name: "GI Surgery", href: "/gi-surgery" },
+      { name: "Metabolic Surgery", href: "/metabolic-surgery" },
+      { name: "Obesity Management", href: "/obesity-management" },
+    ],
+  },
+  {
+    title: "Patient Resources",
+    links: [
+      { name: "Patient Journey", href: "/patient-resources/journey" },
+      { name: "FAQs", href: "/patient-resources/faqs" },
+      { name: "Before & After", href: "/patient-resources/before-after" },
+      { name: "Testimonials", href: "/patient-resources/testimonials" },
+      { name: "Insurance & Cost", href: "/patient-resources/insurance" },
+    ],
+  },
+  {
+    title: "Media & Resources",
+    links: [
+      { name: "Blogs", href: "/media/blogs" },
+      { name: "Videos", href: "/media/videos" },
+      { name: "Patient Stories", href: "/media/patient-stories" },
+      { name: "News & Media", href: "/media/news" },
+    ],
+  },
+  {
+    title: "Quick Links",
+    links: [
+      { name: "About Dr. Wadhawan", href: "/about" },
+      { name: "Hospitals & Locations", href: "/hospitals" },
+      { name: "Book Appointment", href: "/book-appointment" },
+      { name: "Contact Us", href: "/contact" },
+      { name: "BMI Calculator", href: "/bmi-calculator" },
+    ],
+  },
+  {
+    title: "Tools",
+    links: [
+      { name: "BMI Calculator", href: "/bmi-calculator" },
+      { name: "Surgery Eligibility", href: "/surgery-eligibility" },
+      { name: "Cost Estimator", href: "/cost-estimator" },
+    ],
+  },
+];
 
 const Footer = () => (
   <footer className="bg-medical-navy text-primary-foreground/80">
+    {/* Main footer */}
     <div className="container py-16">
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-        <div>
+      {/* Top row: branding + contact */}
+      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 mb-12 pb-10 border-b border-primary-foreground/10">
+        <div className="lg:col-span-2">
           <div className="flex items-center gap-2 mb-4">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-foreground/10">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10">
               <span className="text-lg font-bold text-primary-foreground font-heading">RW</span>
             </div>
-            <span className="font-heading font-bold text-primary-foreground">Dr. Randeep Wadhawan</span>
+            <div>
+              <span className="block font-heading font-bold text-primary-foreground">Dr. Randeep Wadhawan</span>
+              <span className="block text-xs text-primary-foreground/50">Robotic & Laparoscopic Surgeon</span>
+            </div>
           </div>
-          <p className="text-sm leading-relaxed text-primary-foreground/60">
-            Leading Robotic GI & Bariatric Surgeon with 20+ years of experience in minimally invasive surgery.
+          <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-md">
+            Leading Robotic GI & Bariatric Surgeon with 20+ years of experience in minimally invasive surgery. Internationally trained with fellowship in advanced robotic surgery techniques.
           </p>
         </div>
 
         <div>
-          <h4 className="font-heading font-semibold text-primary-foreground mb-4">Robotic Surgery</h4>
-          <ul className="space-y-2.5 text-sm">
-            <li><Link to="/robotic-bariatric-surgery" className="hover:text-primary-foreground transition">Robotic Bariatric Surgery</Link></li>
-            <li><Link to="/robotic-gi-surgery" className="hover:text-primary-foreground transition">Robotic GI Surgery</Link></li>
-            <li><Link to="/laparoscopic-surgery" className="hover:text-primary-foreground transition">Laparoscopic Surgery</Link></li>
-            <li><Link to="/bariatric-surgery" className="hover:text-primary-foreground transition">Bariatric Surgery</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-heading font-semibold text-primary-foreground mb-4">Quick Links</h4>
-          <ul className="space-y-2.5 text-sm">
-            <li><Link to="/about" className="hover:text-primary-foreground transition">About Doctor</Link></li>
-            <li><Link to="/patient-resources" className="hover:text-primary-foreground transition">Patient Resources</Link></li>
-            <li><Link to="/media" className="hover:text-primary-foreground transition">Media & Blogs</Link></li>
-            <li><Link to="/contact" className="hover:text-primary-foreground transition">Contact</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-heading font-semibold text-primary-foreground mb-4">Contact</h4>
+          <h4 className="font-heading font-semibold text-primary-foreground mb-4">Contact Info</h4>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2.5">
               <Phone className="h-4 w-4 mt-0.5 shrink-0" />
@@ -54,8 +109,48 @@ const Footer = () => (
             </li>
           </ul>
         </div>
+
+        <div>
+          <h4 className="font-heading font-semibold text-primary-foreground mb-4">Timings</h4>
+          <ul className="space-y-2 text-sm text-primary-foreground/60">
+            <li>Mon – Sat: 9:00 AM – 5:00 PM</li>
+            <li>Sunday: By Appointment</li>
+          </ul>
+          <div className="mt-4">
+            <Link
+              to="/book-appointment"
+              className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"
+            >
+              Book Appointment
+              <ChevronRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Links grid — two layers */}
+      <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
+        {footerLinks.map((section) => (
+          <div key={section.title}>
+            <h4 className="font-heading font-semibold text-primary-foreground mb-3 text-sm">{section.title}</h4>
+            <ul className="space-y-2">
+              {section.links.map((link) => (
+                <li key={link.href + link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-xs text-primary-foreground/50 hover:text-primary-foreground transition"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
+
+    {/* Bottom bar */}
     <div className="border-t border-primary-foreground/10">
       <div className="container flex flex-col sm:flex-row items-center justify-between py-5 text-xs text-primary-foreground/40">
         <span>© 2026 Dr. Randeep Wadhawan. All rights reserved.</span>
