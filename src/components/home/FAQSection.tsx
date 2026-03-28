@@ -10,7 +10,7 @@ const faqs = [
   // Robotic Surgery – General
   {
     q: "What is robotic-assisted surgery and how does it work?",
-    a: "Robotic-assisted surgery uses a state-of-the-art robotic system (like the da Vinci Xi) controlled by the surgeon. It offers 3D HD visualization, 360° instrument rotation, and sub-millimeter precision — enabling complex procedures through tiny incisions with greater accuracy than the human hand alone.",
+    a: "Robotic-assisted surgery, available at Max Hospital Dwarka, Delhi, uses a state-of-the-art robotic system (like the da Vinci Xi) controlled by the surgeon. It offers 3D HD visualization, 360° instrument rotation, and sub-millimeter precision — enabling complex procedures through tiny incisions with greater accuracy than the human hand alone.",
   },
   {
     q: "Is robotic surgery safe?",
