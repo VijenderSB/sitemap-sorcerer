@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const videos = [
   { id: "LOa9oeapp3c", title: "Robotic Surgery Insights" },
