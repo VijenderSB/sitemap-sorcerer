@@ -166,4 +166,15 @@ $why_choose = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Book Appointment from ' . esc_html($city['name']);
+        $drw_form_subheading = 'Patients from ' . esc_html($city['name']) . ' can book a consultation. Tele-consultation available.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

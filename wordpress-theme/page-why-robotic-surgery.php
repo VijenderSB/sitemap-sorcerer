@@ -79,4 +79,15 @@ $faqs = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Book Your Consultation';
+        $drw_form_subheading = 'Learn how robotic surgery can benefit you. Fill in your details below.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

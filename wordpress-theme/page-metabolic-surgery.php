@@ -57,4 +57,15 @@ get_header();
     <div class="container"><h2>Ready to Take the Next Step?</h2><p>Book a consultation with Dr. Randeep Wadhawan.</p><a href="<?php echo home_url('/book-appointment'); ?>" class="btn btn-primary btn-lg">Book Consultation →</a></div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Book Metabolic Surgery Consultation';
+        $drw_form_subheading = 'Discuss metabolic surgery options for diabetes remission.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

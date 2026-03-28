@@ -72,4 +72,15 @@ $benefits = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Book GI Surgery Consultation';
+        $drw_form_subheading = 'Discuss your GI treatment options with Dr. Randeep Wadhawan.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

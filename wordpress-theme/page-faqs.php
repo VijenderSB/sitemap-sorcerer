@@ -57,4 +57,15 @@ $faq_categories = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Still Have Questions? Book a Consultation';
+        $drw_form_subheading = 'Get answers directly from Dr. Randeep Wadhawan.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

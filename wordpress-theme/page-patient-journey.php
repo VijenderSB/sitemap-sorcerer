@@ -40,4 +40,11 @@ $steps = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php get_template_part('template-parts/appointment-form'); ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>
