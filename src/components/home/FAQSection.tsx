@@ -7,25 +7,90 @@ import {
 } from "@/components/ui/accordion";
 
 const faqs = [
+  // Robotic Surgery – General
   {
-    q: "What is robotic surgery and how is it different from laparoscopic surgery?",
-    a: "Robotic surgery uses a computer-controlled robotic system that gives the surgeon enhanced 3D vision, precision, and control. Unlike laparoscopic surgery, the robotic arms can rotate 360° and make sub-millimeter movements, allowing more delicate and precise operations.",
+    q: "What is robotic-assisted surgery and how does it work?",
+    a: "Robotic-assisted surgery uses a state-of-the-art robotic system (like the da Vinci Xi) controlled by the surgeon. It offers 3D HD visualization, 360° instrument rotation, and sub-millimeter precision — enabling complex procedures through tiny incisions with greater accuracy than the human hand alone.",
   },
   {
     q: "Is robotic surgery safe?",
-    a: "Yes. Robotic surgery is extremely safe with FDA-approved systems used worldwide. It often results in fewer complications, less blood loss, and faster recovery compared to open and conventional laparoscopic surgery.",
+    a: "Yes. Robotic surgery is FDA-approved and used globally with an excellent safety profile. Studies consistently show fewer complications, less blood loss, reduced infection risk, and faster recovery compared to open and conventional laparoscopic surgery.",
   },
   {
-    q: "How long is the recovery after robotic bariatric surgery?",
-    a: "Most patients are discharged within 24–48 hours and can return to light activities within a week. Full recovery typically takes 2–4 weeks, which is significantly faster than open surgery.",
+    q: "What are the advantages of robotic surgery over traditional laparoscopic surgery?",
+    a: "Robotic surgery provides enhanced 3D visualization, tremor-free precision, greater range of instrument motion (360° wrist-like movement), and ergonomic control for the surgeon — translating to smaller incisions, less pain, fewer complications, and faster recovery for patients.",
   },
   {
-    q: "Am I a candidate for robotic surgery?",
-    a: "Most patients who qualify for laparoscopic surgery are also candidates for robotic surgery. During your consultation, Dr. Wadhawan will assess your condition and recommend the best approach for your situation.",
+    q: "Does the robot perform the surgery on its own?",
+    a: "No. The robot never acts independently. Dr. Wadhawan controls every movement of the robotic arms from a console in the operating room. The system enhances the surgeon's capabilities but does not make autonomous decisions.",
+  },
+  // Robotic Bariatric Surgery
+  {
+    q: "What robotic bariatric (weight loss) surgeries does Dr. Wadhawan perform?",
+    a: "Dr. Wadhawan performs robotic sleeve gastrectomy, robotic gastric bypass (Roux-en-Y), robotic mini gastric bypass, robotic metabolic surgery for diabetes, and robotic revision bariatric surgery for patients who need correction of a previous procedure.",
   },
   {
-    q: "What is the cost of robotic surgery in India?",
-    a: "The cost varies depending on the procedure. We offer transparent pricing and can discuss insurance options during your consultation. Many insurance providers now cover robotic-assisted procedures.",
+    q: "Who is eligible for robotic bariatric surgery?",
+    a: "Generally, patients with a BMI ≥ 40, or BMI ≥ 35 with obesity-related conditions (diabetes, hypertension, sleep apnea), who have not achieved lasting weight loss through diet and exercise. Dr. Wadhawan evaluates each patient individually during consultation.",
+  },
+  {
+    q: "How much weight can I expect to lose after robotic bariatric surgery?",
+    a: "Most patients lose 60–80% of their excess weight within 12–18 months. Robotic sleeve gastrectomy typically achieves 60–70% excess weight loss, while robotic gastric bypass can achieve 70–80%, with additional improvement in diabetes and metabolic conditions.",
+  },
+  {
+    q: "What is the recovery time after robotic bariatric surgery?",
+    a: "Most patients are discharged within 24–48 hours and can return to light activities within a week. Full recovery typically takes 2–4 weeks — significantly faster than open surgery. Many patients return to work within 7–10 days.",
+  },
+  {
+    q: "Can robotic surgery help with diabetes and metabolic conditions?",
+    a: "Yes. Robotic metabolic surgery has shown up to 80% remission of type 2 diabetes. It also significantly improves hypertension, high cholesterol, metabolic syndrome, and sleep apnea, often reducing or eliminating the need for medications.",
+  },
+  {
+    q: "What is robotic revision bariatric surgery?",
+    a: "Revision surgery corrects or converts a previous bariatric procedure — due to weight regain, complications, or inadequate results. The robotic system is especially valuable here as it provides superior visualization of altered anatomy and scar tissue, enabling safer revision.",
+  },
+  // Robotic GI Surgery
+  {
+    q: "What robotic GI (gastrointestinal) surgeries are offered?",
+    a: "Dr. Wadhawan performs robotic hernia repair (inguinal, incisional, hiatus, complex), robotic gallbladder surgery, robotic appendectomy, robotic colon and rectal surgery, robotic GI cancer surgery, and advanced procedures like robotic liver, pancreatic, and achalasia surgery.",
+  },
+  {
+    q: "How does robotic surgery benefit hernia repair?",
+    a: "Robotic hernia surgery allows precise mesh placement with 3D visualization, reducing recurrence rates. It's especially advantageous for complex, recurrent, or multi-defect hernias where the precision of robotic instruments enables stronger and more accurate repairs.",
+  },
+  {
+    q: "Is robotic surgery suitable for GI cancer treatment?",
+    a: "Yes. Robotic-assisted surgery provides precise tumor removal with clear margins, thorough lymph node dissection, and preservation of surrounding healthy tissue. This translates to better oncological outcomes for stomach, colon, rectal, and esophageal cancers with faster recovery.",
+  },
+  {
+    q: "What are the benefits of robotic surgery for rectal conditions?",
+    a: "The pelvis is a narrow, confined space. Robotic arms can navigate it with 360° movement, enabling precise dissection around critical nerves and structures. This results in better nerve preservation, lower positive margin rates, and superior functional outcomes.",
+  },
+  // Laparoscopic Surgery
+  {
+    q: "What is laparoscopic surgery and when is it recommended?",
+    a: "Laparoscopic (keyhole) surgery uses small incisions and a camera to perform procedures. It's a proven, cost-effective minimally invasive approach for bariatric, hernia, gallbladder, appendix, and colorectal surgeries with faster recovery than open surgery.",
+  },
+  {
+    q: "How do I choose between robotic and laparoscopic surgery?",
+    a: "Both are minimally invasive. Robotic surgery offers greater precision for complex cases, while laparoscopic surgery is excellent for straightforward procedures. Dr. Wadhawan recommends the best approach based on your specific condition, anatomy, and goals during consultation.",
+  },
+  // Practical & Cost
+  {
+    q: "How long does a robotic surgery procedure take?",
+    a: "Most robotic procedures take 1–3 hours depending on complexity. Robotic sleeve gastrectomy typically takes about 60–90 minutes, while complex procedures like robotic gastric bypass or cancer surgeries may take 2–4 hours.",
+  },
+  {
+    q: "Will there be visible scars after robotic surgery?",
+    a: "Robotic surgery uses 4–5 incisions of just 8–12 mm each. These heal into tiny, barely visible marks. The cosmetic outcome is significantly better than open surgery and often better than standard laparoscopic approaches.",
+  },
+  {
+    q: "Is robotic surgery covered by insurance in India?",
+    a: "Many insurance providers now cover robotic-assisted procedures. Our team assists with insurance pre-authorization and provides transparent cost breakdowns. Contact us to verify coverage with your specific insurance plan.",
+  },
+  {
+    q: "How do I book a consultation with Dr. Randeep Wadhawan?",
+    a: "You can book a consultation through our online appointment form, call us at +91 70423 73880, or message on WhatsApp. We offer both in-person consultations at Max Hospital, Dwarka and virtual consultations for outstation patients.",
   },
 ];
 
