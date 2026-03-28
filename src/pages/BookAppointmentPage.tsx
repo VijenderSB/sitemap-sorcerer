@@ -25,9 +25,14 @@ const BookAppointmentPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Book Appointment | Dr. Randeep Wadhawan | Best Robotic Surgeon Delhi"
+        description="Book appointment with Dr. Randeep Wadhawan — Delhi's best robotic surgeon at Max Hospital Dwarka. Bariatric, GI, hernia surgery consultation. Call +91 7042373880."
+        canonical="https://www.randeepwadhawan.com/book-appointment"
+      />
       <PageHero
-        title="Book Your Appointment"
-        subtitle="Schedule a consultation with Dr. Randeep Wadhawan — India's leading robotic surgeon."
+        title="Book Your Appointment in Delhi"
+        subtitle="Schedule a consultation with Dr. Randeep Wadhawan at Max Super Speciality Hospital, Dwarka, New Delhi."
       />
 
       <section className="py-20">
