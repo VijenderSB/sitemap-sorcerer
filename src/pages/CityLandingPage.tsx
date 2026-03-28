@@ -311,7 +311,17 @@ const CityLandingPage = () => {
         </div>
       </section>
 
-      {/* Nearby Cities Interlinking */}
+      {/* Inline Appointment Form */}
+      <section className="py-16">
+        <div className="container max-w-4xl">
+          <InlineAppointmentForm
+            heading={`Book Appointment from ${city.name}`}
+            subheading={`Patients from ${city.name} can book a consultation with Dr. Randeep Wadhawan. Tele-consultation available for initial assessment.`}
+          />
+        </div>
+      </section>
+
+
       <section className="py-16">
         <div className="container">
           <motion.div {...fadeIn}>
