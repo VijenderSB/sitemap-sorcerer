@@ -6,7 +6,7 @@ const procedures = [
   {
     icon: Bot,
     title: "Robotic Bariatric Surgery",
-    desc: "Sleeve gastrectomy, gastric bypass & revision surgeries with robotic precision.",
+    desc: "Best robotic bariatric surgery in Delhi — sleeve gastrectomy, gastric bypass & revision surgeries.",
     href: "/robotic-bariatric-surgery",
   },
   {
