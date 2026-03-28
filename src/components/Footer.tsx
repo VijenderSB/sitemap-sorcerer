@@ -59,6 +59,7 @@ const footerLinks = [
       { name: "Hospitals & Locations", href: "/hospitals" },
       { name: "Book Appointment", href: "/book-appointment" },
       { name: "Contact Us", href: "/contact" },
+      { name: "Cities We Serve", href: "/cities-we-serve" },
       { name: "BMI Calculator", href: "/bmi-calculator" },
     ],
   },

@@ -44,6 +44,7 @@ import HerniaSurgeryPage from "./pages/HerniaSurgeryPage";
 import GISurgeryPage from "./pages/GISurgeryPage";
 import SEOLandingPage from "./pages/SEOLandingPage";
 import CityLandingPage from "./pages/CityLandingPage";
+import CitiesPage from "./pages/CitiesPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -257,6 +258,7 @@ const App = () => (
             <Route path="/laparoscopic-surgeon-delhi" element={<SEOLandingPage slug="laparoscopic-surgeon-delhi" />} />
 
             {/* City Landing Pages */}
+            <Route path="/cities-we-serve" element={<CitiesPage />} />
             <Route path="/best-surgeon/:citySlug" element={<CityLandingPage />} />
 
             <Route path="*" element={<NotFound />} />
