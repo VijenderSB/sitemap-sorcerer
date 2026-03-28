@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronRight, MessageCircle } from "lucide-react";
 
 const footerLinks = [
   {
@@ -97,7 +97,7 @@ const Footer = () => (
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2.5">
               <Phone className="h-4 w-4 mt-0.5 shrink-0" />
-              <a href="tel:+919999999999" className="hover:text-primary-foreground transition">+91 99999 99999</a>
+              <a href="tel:+919810155826" className="hover:text-primary-foreground transition">+91 98101 55826</a>
             </li>
             <li className="flex items-start gap-2.5">
               <Mail className="h-4 w-4 mt-0.5 shrink-0" />

@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import ProcedureDetailPage from "@/components/ProcedureDetailPage";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
@@ -246,6 +247,7 @@ const App = () => (
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
