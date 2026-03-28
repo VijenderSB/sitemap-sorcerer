@@ -11,6 +11,7 @@ import AwardsSection from "@/components/home/AwardsSection";
 import FAQSection from "@/components/home/FAQSection";
 import ContactSection from "@/components/home/ContactSection";
 import CTASection from "@/components/home/CTASection";
+import ObesityManagementSection from "@/components/home/ObesityManagementSection";
 import VideosSection from "@/components/home/VideosSection";
 
 const Index = () => (
