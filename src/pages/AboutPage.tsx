@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import InlineAppointmentForm from "@/components/InlineAppointmentForm";
 
 const education = [
   { degree: "MBBS", detail: "Post Graduate Institute of Medical Sciences (PGIMS), Rohtak, Haryana, 1984–1990" },
