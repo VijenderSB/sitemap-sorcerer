@@ -10,12 +10,12 @@ import { useToast } from "@/hooks/use-toast";
 
 const HeroSection = () => {
   const { toast } = useToast();
-  const [form, setForm] = useState({ name: "", phone: "", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", age: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({ title: "Appointment Request Sent", description: "We will contact you shortly to confirm your appointment." });
-    setForm({ name: "", phone: "", email: "", message: "" });
+    setForm({ name: "", phone: "", age: "", message: "" });
   };
 
   return (
@@ -109,10 +109,13 @@ const HeroSection = () => {
                 className="bg-primary-foreground/10 border-primary-foreground/15 text-primary-foreground placeholder:text-primary-foreground/40 focus-visible:ring-secondary"
               />
               <Input
-                placeholder="Email Address"
-                type="email"
-                value={form.email}
-                onChange={(e) => setForm({ ...form, email: e.target.value })}
+                placeholder="Age *"
+                required
+                type="number"
+                min="1"
+                max="120"
+                value={form.age}
+                onChange={(e) => setForm({ ...form, age: e.target.value })}
                 className="bg-primary-foreground/10 border-primary-foreground/15 text-primary-foreground placeholder:text-primary-foreground/40 focus-visible:ring-secondary"
               />
               <Textarea
