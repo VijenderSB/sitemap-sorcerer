@@ -200,6 +200,7 @@ const App = () => (
             <Route path="/hernia-surgery" element={<HerniaSurgeryPage />} />
             <Route path="/gi-surgery" element={<GISurgeryPage />} />
             <Route path="/metabolic-surgery" element={<MetabolicSurgeryPage />} />
+            <Route path="/obesity-management" element={<ObesityManagementPage />} />
 
             {/* Patient Resources */}
             <Route path="/patient-resources" element={

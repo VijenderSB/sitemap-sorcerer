@@ -11,6 +11,7 @@ import AwardsSection from "@/components/home/AwardsSection";
 import FAQSection from "@/components/home/FAQSection";
 import ContactSection from "@/components/home/ContactSection";
 import CTASection from "@/components/home/CTASection";
+import ObesityManagementSection from "@/components/home/ObesityManagementSection";
 
 const Index = () => (
   <>
@@ -19,6 +20,7 @@ const Index = () => (
     <AboutSection />
     <RoboticHighlight />
     <ProceduresSection />
+    <ObesityManagementSection />
     <LaparoscopicSection />
     <TestimonialsSection />
     <BeforeAfterSection />
