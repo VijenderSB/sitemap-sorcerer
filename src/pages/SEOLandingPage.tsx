@@ -23,7 +23,7 @@ const seoPages: Record<string, { title: string; subtitle: string; overview: stri
     title: "Best Robotic GI Surgeon in Delhi",
     subtitle: "Expert robotic gastrointestinal surgery in Delhi for complex abdominal conditions.",
     overview: "Dr. Wadhawan is a leading robotic GI surgeon in Delhi, performing advanced robotic procedures for gallbladder disease, colon conditions, rectal surgery, GI cancers, and more. His expertise in robotic-assisted techniques ensures patients benefit from enhanced precision, reduced complications, and faster recovery from complex GI procedures.",
-    breadcrumb: "SEO > Robotic GI Surgeon Delhi",
+    breadcrumb: "Best Robotic GI Surgeon in Delhi",
   },
   "laparoscopic-surgeon-delhi": {
     title: "Best Laparoscopic Surgeon in Delhi",
