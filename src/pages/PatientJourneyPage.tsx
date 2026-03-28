@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, UserCheck, ClipboardCheck, Stethoscope, HeartPulse } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const steps = [
   { icon: UserCheck, title: "First Consultation", desc: "Meet Dr. Wadhawan for a thorough evaluation. Discuss your condition, medical history, and treatment options. All your questions will be answered." },
