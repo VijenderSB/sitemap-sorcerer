@@ -11,7 +11,7 @@ const seoPages: Record<string, { title: string; subtitle: string; overview: stri
     title: "Best Robotic Bariatric Surgeon in Delhi",
     subtitle: "Expert robotic weight loss surgery in Delhi with proven results and faster recovery.",
     overview: "Dr. Randeep Wadhawan is recognized as one of Delhi's leading robotic bariatric surgeons. With extensive experience in robotic sleeve gastrectomy, gastric bypass, and metabolic surgery, he has helped thousands of patients achieve lasting weight loss and remission of obesity-related conditions. His robotic-first approach ensures maximum precision, minimal scarring, and the fastest possible recovery.",
-    breadcrumb: "SEO > Robotic Bariatric Surgeon Delhi",
+    breadcrumb: "Best Robotic Bariatric Surgeon in Delhi",
   },
   "robotic-hernia-surgeon-delhi": {
     title: "Best Robotic Hernia Surgeon in Delhi",
