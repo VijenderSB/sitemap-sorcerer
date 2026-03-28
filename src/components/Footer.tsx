@@ -86,8 +86,8 @@ const Footer = () => (
               <span className="block text-xs text-primary-foreground/60">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
             </div>
           </div>
-          <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-md mb-4">
-            Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery<br />
+          <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-xl mb-4">
+            <span className="whitespace-nowrap">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery</span><br />
             Max Super Speciality Hospital Dwarka<br />
             (A Unit of Muthoot Hospitals Pvt Ltd.)
           </p>
