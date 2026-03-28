@@ -43,6 +43,7 @@ import ObesityManagementPage from "./pages/ObesityManagementPage";
 import HerniaSurgeryPage from "./pages/HerniaSurgeryPage";
 import GISurgeryPage from "./pages/GISurgeryPage";
 import SEOLandingPage from "./pages/SEOLandingPage";
+import CityLandingPage from "./pages/CityLandingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
