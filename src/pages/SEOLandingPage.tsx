@@ -17,7 +17,7 @@ const seoPages: Record<string, { title: string; subtitle: string; overview: stri
     title: "Best Robotic Hernia Surgeon in Delhi",
     subtitle: "Advanced robotic hernia repair in Delhi — all hernia types treated with precision.",
     overview: "For expert robotic hernia repair in Delhi, Dr. Randeep Wadhawan offers the most advanced surgical techniques for inguinal, incisional, umbilical, hiatus, and complex hernias. The robotic approach provides 3D visualization and precise mesh placement, resulting in lower recurrence rates and faster recovery compared to traditional methods.",
-    breadcrumb: "SEO > Robotic Hernia Surgeon Delhi",
+    breadcrumb: "Best Robotic Hernia Surgeon in Delhi",
   },
   "robotic-gi-surgeon-delhi": {
     title: "Best Robotic GI Surgeon in Delhi",
