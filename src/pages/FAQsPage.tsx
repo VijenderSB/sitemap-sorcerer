@@ -1,4 +1,5 @@
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import {
   Accordion,
   AccordionContent,
@@ -29,7 +30,7 @@ const faqCategories = [
     title: "General Questions",
     faqs: [
       { q: "Does insurance cover these surgeries?", a: "Many insurance providers now cover bariatric and robotic surgeries. Our team can help verify your coverage and assist with claims." },
-      { q: "How do I book a consultation?", a: "You can book online through our website, call us at +91 99999 99999, or reach us on WhatsApp for quick scheduling." },
+      { q: "How do I book a consultation?", a: "You can book online through our website, call us at +91 7042373880, or reach us on WhatsApp for quick scheduling." },
       { q: "What should I bring to my first consultation?", a: "Bring your medical records, current medications list, previous test reports, and any insurance documents." },
       { q: "Do you offer second opinions?", a: "Yes, Dr. Wadhawan provides second opinions for patients who have been advised surgery elsewhere and want expert guidance." },
     ],
@@ -38,10 +39,15 @@ const faqCategories = [
 
 const FAQsPage = () => (
   <div>
+    <SEOHead
+      title="FAQs — Robotic & Bariatric Surgery in Delhi | Dr. Randeep Wadhawan"
+      description="Frequently asked questions about robotic surgery, bariatric surgery, hernia repair in Delhi. Dr. Randeep Wadhawan at Max Hospital Dwarka answers your queries."
+      canonical="https://www.randeepwadhawan.com/patient-resources/faqs"
+    />
     <PageHero
-      title="Frequently Asked Questions"
-      subtitle="Find answers to common questions about robotic surgery, bariatric procedures, and patient care."
-      breadcrumb="Patient Resources > FAQs"
+      title="Frequently Asked Questions — Surgery in Delhi"
+      subtitle="Find answers to common questions about robotic surgery, bariatric procedures, and patient care at Max Hospital, Dwarka, Delhi."
+      breadcrumb="Resources > FAQs"
     />
 
     <section className="py-20">

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import { Newspaper } from "lucide-react";
 
 const news = [
@@ -12,7 +13,12 @@ const news = [
 
 const NewsPage = () => (
   <div>
-    <PageHero title="News & Media Coverage" subtitle="Dr. Wadhawan in the press — latest media appearances and coverage." breadcrumb="Media > News" />
+    <SEOHead
+      title="News & Media | Dr. Randeep Wadhawan | Best Robotic Surgeon Delhi"
+      description="Dr. Randeep Wadhawan in the news — media coverage, press appearances, and interviews about robotic surgery in Delhi."
+      canonical="https://www.randeepwadhawan.com/media/news"
+    />
+    <PageHero title="News & Media Coverage" subtitle="Dr. Wadhawan in the press — latest media appearances and coverage from Delhi." breadcrumb="Resources > News" />
 
     <section className="py-20">
       <div className="container max-w-4xl">

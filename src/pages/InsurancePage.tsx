@@ -2,13 +2,19 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, FileCheck, CreditCard } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const InsurancePage = () => (
   <div>
+    <SEOHead
+      title="Insurance & Surgery Cost in Delhi | Robotic Surgery | Dr. Randeep Wadhawan"
+      description="Surgery cost & insurance coverage for robotic, bariatric & hernia surgery in Delhi. Max Hospital Dwarka. Cashless insurance. Call +91 7042373880."
+      canonical="https://www.randeepwadhawan.com/patient-resources/insurance"
+    />
     <PageHero
-      title="Insurance & Cost Information"
-      subtitle="Transparent pricing and insurance support for your surgical journey."
-      breadcrumb="Patient Resources > Insurance & Cost"
+      title="Insurance & Cost — Surgery in Delhi"
+      subtitle="Transparent pricing and insurance support for your surgical journey at Max Hospital, Dwarka, Delhi."
+      breadcrumb="Resources > Insurance & Cost"
     />
 
     <section className="py-20">

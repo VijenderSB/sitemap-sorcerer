@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, UserCheck, ClipboardCheck, Stethoscope, HeartPulse } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const steps = [
   { icon: UserCheck, title: "First Consultation", desc: "Meet Dr. Wadhawan for a thorough evaluation. Discuss your condition, medical history, and treatment options. All your questions will be answered." },
@@ -13,10 +14,15 @@ const steps = [
 
 const PatientJourneyPage = () => (
   <div>
+    <SEOHead
+      title="Patient Journey | What to Expect — Surgery in Delhi | Dr. Randeep Wadhawan"
+      description="Your complete patient journey — consultation to recovery. Robotic surgery at Max Hospital Dwarka, Delhi by Dr. Randeep Wadhawan. Book now."
+      canonical="https://www.randeepwadhawan.com/patient-resources/journey"
+    />
     <PageHero
-      title="Your Patient Journey"
-      subtitle="What to expect from your first consultation through surgery to full recovery."
-      breadcrumb="Patient Resources > Patient Journey"
+      title="Your Patient Journey — Delhi"
+      subtitle="What to expect from your first consultation through surgery to full recovery at Max Hospital, Dwarka."
+      breadcrumb="Resources > Patient Journey"
     />
 
     <section className="py-20">

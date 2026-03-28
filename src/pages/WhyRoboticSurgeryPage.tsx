@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Shield, Clock, Minimize2, Target, HeartPulse, Zap } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import {
   Accordion,
   AccordionContent,
@@ -36,9 +37,14 @@ const faqs = [
 
 const WhyRoboticSurgeryPage = () => (
   <div>
+    <SEOHead
+      title="Why Robotic Surgery? | Benefits, Recovery & Cost in Delhi | Dr. Randeep Wadhawan"
+      description="Why choose robotic surgery in Delhi? Faster recovery, less pain, smaller scars. Dr. Randeep Wadhawan at Max Hospital Dwarka explains benefits of Da Vinci robotic surgery."
+      canonical="https://www.randeepwadhawan.com/why-robotic-surgery"
+    />
     <PageHero
-      title="Why Choose Robotic Surgery?"
-      subtitle="Discover why robotic-assisted surgery is the gold standard in modern minimally invasive procedures."
+      title="Why Choose Robotic Surgery in Delhi?"
+      subtitle="Discover why robotic-assisted surgery at Max Hospital, Dwarka is the gold standard in modern minimally invasive procedures."
       breadcrumb="Robotic Surgery > Why Robotic Surgery"
     />
 

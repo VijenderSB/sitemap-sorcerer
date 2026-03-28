@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowRight, Calculator } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const BMICalculatorPage = () => {
   const [weight, setWeight] = useState("");
@@ -31,9 +32,14 @@ const BMICalculatorPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="BMI Calculator | Weight Loss Surgery Eligibility Delhi | Dr. Randeep Wadhawan"
+        description="Free BMI calculator. Check if you qualify for bariatric surgery in Delhi. Dr. Randeep Wadhawan at Max Hospital Dwarka. Call +91 7042373880."
+        canonical="https://www.randeepwadhawan.com/tools/bmi-calculator"
+      />
       <PageHero
-        title="BMI Calculator"
-        subtitle="Calculate your Body Mass Index and understand if you may be a candidate for weight loss surgery."
+        title="BMI Calculator — Delhi"
+        subtitle="Calculate your Body Mass Index and understand if you may be a candidate for weight loss surgery at Max Hospital, Dwarka, Delhi."
         breadcrumb="Tools > BMI Calculator"
       />
 

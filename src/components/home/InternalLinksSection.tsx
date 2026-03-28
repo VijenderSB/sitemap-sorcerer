@@ -10,7 +10,7 @@ const links = [
   { label: "Bariatric Surgery in Delhi", href: "/bariatric-surgery" },
   { label: "Weight Loss Surgery in Delhi", href: "/obesity-management" },
   { label: "Metabolic Surgery for Diabetes in Delhi", href: "/metabolic-surgery" },
-  { label: "Best Robotic Surgeon in Delhi", href: "/best/robotic-surgeon-delhi" },
+  { label: "Best Robotic Surgeon in Delhi", href: "/robotic-surgeon-delhi" },
   { label: "Gastric Bypass Surgery Delhi", href: "/robotic-bariatric-surgery/gastric-bypass" },
   { label: "Sleeve Gastrectomy Delhi", href: "/robotic-bariatric-surgery/sleeve-gastrectomy" },
   { label: "Gallbladder Surgery in Delhi", href: "/robotic-gi-surgery/gallbladder" },

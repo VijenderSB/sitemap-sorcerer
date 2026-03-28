@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, IndianRupee } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const procedures = [
   { name: "Robotic Sleeve Gastrectomy", min: 350000, max: 500000 },
@@ -22,9 +23,14 @@ const CostEstimatorPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Surgery Cost Estimator Delhi | Robotic & Bariatric Surgery Cost | Dr. Randeep Wadhawan"
+        description="Estimate robotic, bariatric & hernia surgery cost in Delhi. Max Hospital Dwarka. Insurance accepted. Dr. Randeep Wadhawan. Call +91 7042373880."
+        canonical="https://www.randeepwadhawan.com/tools/cost-estimator"
+      />
       <PageHero
-        title="Surgery Cost Estimator"
-        subtitle="Get an approximate cost range for your procedure. Actual costs may vary based on individual needs."
+        title="Surgery Cost Estimator — Delhi"
+        subtitle="Get an approximate cost range for your procedure at Max Hospital, Dwarka, New Delhi."
         breadcrumb="Tools > Cost Estimator"
       />
 

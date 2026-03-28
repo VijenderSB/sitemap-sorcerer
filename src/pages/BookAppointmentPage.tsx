@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, MessageCircle, Send, ArrowRight, Calendar, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const BookAppointmentPage = () => {
   const { toast } = useToast();
@@ -24,9 +25,14 @@ const BookAppointmentPage = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Book Appointment | Dr. Randeep Wadhawan | Best Robotic Surgeon Delhi"
+        description="Book appointment with Dr. Randeep Wadhawan — Delhi's best robotic surgeon at Max Hospital Dwarka. Bariatric, GI, hernia surgery consultation. Call +91 7042373880."
+        canonical="https://www.randeepwadhawan.com/book-appointment"
+      />
       <PageHero
-        title="Book Your Appointment"
-        subtitle="Schedule a consultation with Dr. Randeep Wadhawan — India's leading robotic surgeon."
+        title="Book Your Appointment in Delhi"
+        subtitle="Schedule a consultation with Dr. Randeep Wadhawan at Max Super Speciality Hospital, Dwarka, New Delhi."
       />
 
       <section className="py-20">
@@ -39,19 +45,19 @@ const BookAppointmentPage = () => {
 
               <div className="space-y-4 mb-10">
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+917042373880"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
                 >
                   <div className="rounded-xl bg-accent p-3"><Phone className="h-6 w-6 text-accent-foreground" /></div>
                   <div>
                     <p className="font-heading font-semibold text-foreground">Call Now</p>
-                    <p className="text-sm text-muted-foreground">+91 99999 99999</p>
+                    <p className="text-sm text-muted-foreground">+91 7042373880</p>
                   </div>
                   <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto" />
                 </a>
 
                 <a
-                  href="https://wa.me/919999999999"
+                  href="https://wa.me/919810155826"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
@@ -65,13 +71,13 @@ const BookAppointmentPage = () => {
                 </a>
 
                 <a
-                  href="mailto:info@drrandeep.com"
+                  href="mailto:randeepwadhawan@yahoo.com"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
                 >
                   <div className="rounded-xl bg-accent p-3"><Mail className="h-6 w-6 text-accent-foreground" /></div>
                   <div>
                     <p className="font-heading font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">info@drrandeep.com</p>
+                    <p className="text-sm text-muted-foreground">randeepwadhawan@yahoo.com</p>
                   </div>
                   <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto" />
                 </a>
@@ -82,13 +88,11 @@ const BookAppointmentPage = () => {
                   <Clock className="h-5 w-5 text-primary" /> Consultation Hours
                 </h3>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>Monday – Friday: 10:00 AM – 6:00 PM</p>
-                  <p>Saturday: 10:00 AM – 2:00 PM</p>
-                  <p>Sunday: By Appointment Only</p>
+                  <p>Monday – Saturday: 10:00 AM – 6:00 PM</p>
                 </div>
                 <div className="flex items-start gap-2 mt-4">
                   <MapPin className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                  <p className="text-sm text-muted-foreground">Max Super Speciality Hospital, Saket, New Delhi</p>
+                  <p className="text-sm text-muted-foreground">Max Super Speciality Hospital, Plot No. 1, Sector 10, Dwarka, New Delhi – 110075</p>
                 </div>
               </div>
             </div>

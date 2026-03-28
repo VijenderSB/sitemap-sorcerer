@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Award, GraduationCap, BookOpen, Users, Star, Briefcase, Stethoscope, MapPin, Phone, Mail } from "lucide-react";
 import doctorImg from "@/assets/doctor-portrait.jpg";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -97,6 +98,11 @@ const fadeIn = {
 
 const AboutPage = () => (
   <div>
+    <SEOHead
+      title="About Dr. Randeep Wadhawan | Best Robotic Surgeon in Delhi | Max Hospital Dwarka"
+      description="Dr. Randeep Wadhawan — Chairman GI, Bariatric, Laparoscopic & Robotic Surgery at Max Hospital Dwarka, Delhi. MBBS, MS, FACS(USA), FRCS(Ed). 60,000+ surgeries. Book consultation."
+      canonical="https://www.randeepwadhawan.com/about"
+    />
     <PageHero
       title="About Dr. Randeep Wadhawan"
       subtitle="Chairman — Gastrointestinal, Bariatric, Laparoscopic & Robotic Surgery | Max Super Speciality Hospital, Dwarka, New Delhi"
