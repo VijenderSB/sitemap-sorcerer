@@ -110,7 +110,7 @@ const navigation: NavItem[] = [
     ],
   },
   {
-    name: "Patient Resources",
+    name: "Resources",
     href: "/patient-resources",
     children: [
       { name: "Patient Journey", href: "/patient-resources/journey" },
@@ -118,12 +118,6 @@ const navigation: NavItem[] = [
       { name: "Before & After", href: "/patient-resources/before-after" },
       { name: "Testimonials", href: "/media/patient-stories" },
       { name: "Insurance & Cost", href: "/patient-resources/insurance" },
-    ],
-  },
-  {
-    name: "Media",
-    href: "/media",
-    children: [
       { name: "Blogs", href: "/media/blogs" },
       { name: "Videos", href: "/media/videos" },
       { name: "Patient Stories", href: "/media/patient-stories" },
