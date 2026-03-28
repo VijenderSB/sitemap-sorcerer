@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import LeadCapturePopup from "@/components/LeadCapturePopup";
+import StickyAppointmentForm from "@/components/StickyAppointmentForm";
 import ProcedureDetailPage from "@/components/ProcedureDetailPage";
 import * as SC from "@/data/surgeryContent";
 import surgeryRoboticImg from "@/assets/surgery-robotic-bariatric.jpg";
@@ -267,6 +268,7 @@ const App = () => (
         </main>
         <Footer />
         <WhatsAppButton />
+        <StickyAppointmentForm />
         <LeadCapturePopup />
       </BrowserRouter>
     </TooltipProvider>
