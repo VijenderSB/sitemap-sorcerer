@@ -348,8 +348,8 @@ const CityLandingPage = () => {
             Call us or book online. Tele-consultation available for initial assessment.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" variant="secondary" asChild>
-              <Link to="/book-appointment">Book Appointment</Link>
+            <Button size="lg" variant="secondary" onClick={() => { import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
+              Book Appointment
             </Button>
             <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
               <a href="tel:+917042373880">Call +91 7042373880</a>
