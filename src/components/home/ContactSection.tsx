@@ -13,7 +13,7 @@ const ContactSection = () => (
         className="text-center mb-12"
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-secondary">Get in Touch</span>
-        <h2 className="text-3xl lg:text-4xl font-bold font-heading text-foreground mt-2">Contact Us</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold font-heading text-foreground mt-2">Contact Us in Delhi</h2>
       </motion.div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
         {[
