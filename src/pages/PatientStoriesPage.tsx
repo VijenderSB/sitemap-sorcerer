@@ -4,6 +4,7 @@ import { Star, ArrowRight, Filter } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import { stories, categories } from "@/data/patientStories";
 
 const STORIES_PER_PAGE = 12;
