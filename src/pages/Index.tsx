@@ -3,9 +3,13 @@ import StatsSection from "@/components/home/StatsSection";
 import AboutSection from "@/components/home/AboutSection";
 import RoboticHighlight from "@/components/home/RoboticHighlight";
 import ProceduresSection from "@/components/home/ProceduresSection";
+import LaparoscopicSection from "@/components/home/LaparoscopicSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
-import FAQSection from "@/components/home/FAQSection";
+import BeforeAfterSection from "@/components/home/BeforeAfterSection";
 import HospitalsSection from "@/components/home/HospitalsSection";
+import AwardsSection from "@/components/home/AwardsSection";
+import FAQSection from "@/components/home/FAQSection";
+import ContactSection from "@/components/home/ContactSection";
 import CTASection from "@/components/home/CTASection";
 
 const Index = () => (
@@ -15,9 +19,13 @@ const Index = () => (
     <AboutSection />
     <RoboticHighlight />
     <ProceduresSection />
+    <LaparoscopicSection />
     <TestimonialsSection />
-    <FAQSection />
+    <BeforeAfterSection />
     <HospitalsSection />
+    <AwardsSection />
+    <FAQSection />
+    <ContactSection />
     <CTASection />
   </>
 );
