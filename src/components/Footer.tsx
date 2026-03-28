@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, ChevronRight, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
 
 const footerLinks = [
   {
@@ -73,9 +73,8 @@ const footerLinks = [
 
 const Footer = () => (
   <footer className="bg-medical-navy text-primary-foreground/80">
-    {/* Main footer */}
     <div className="container py-16">
-      {/* Top row: branding + contact */}
+      {/* Top row: Doctor details + contact */}
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 mb-12 pb-10 border-b border-primary-foreground/10">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2 mb-4">
@@ -84,11 +83,16 @@ const Footer = () => (
             </div>
             <div>
               <span className="block font-heading font-bold text-primary-foreground">Dr. Randeep Wadhawan</span>
-              <span className="block text-xs text-primary-foreground/50">Robotic & Laparoscopic Surgeon</span>
+              <span className="block text-xs text-primary-foreground/60">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
             </div>
           </div>
-          <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-md">
-            Leading Robotic GI & Bariatric Surgeon with 20+ years of experience in minimally invasive surgery. Internationally trained with fellowship in advanced robotic surgery techniques.
+          <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-md mb-4">
+            Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery<br />
+            Max Super Speciality Hospital Dwarka<br />
+            (A Unit of Muthoot Hospitals Pvt Ltd.)
+          </p>
+          <p className="text-sm text-primary-foreground/60">
+            Plot No. 1, Sector 10, Dwarka, New Delhi – 110075
           </p>
         </div>
 
@@ -97,15 +101,15 @@ const Footer = () => (
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2.5">
               <Phone className="h-4 w-4 mt-0.5 shrink-0" />
-              <a href="tel:+919810155826" className="hover:text-primary-foreground transition">+91 98101 55826</a>
+              <a href="tel:+917042373880" className="hover:text-primary-foreground transition">+91 7042373880</a>
             </li>
             <li className="flex items-start gap-2.5">
               <Mail className="h-4 w-4 mt-0.5 shrink-0" />
-              <a href="mailto:info@drrandeep.com" className="hover:text-primary-foreground transition">info@drrandeep.com</a>
+              <a href="mailto:randeepwadhawan@yahoo.com" className="hover:text-primary-foreground transition">randeepwadhawan@yahoo.com</a>
             </li>
             <li className="flex items-start gap-2.5">
               <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-              <span>New Delhi, India</span>
+              <span>Max Super Speciality Hospital, Dwarka, New Delhi</span>
             </li>
           </ul>
         </div>
@@ -113,7 +117,7 @@ const Footer = () => (
         <div>
           <h4 className="font-heading font-semibold text-primary-foreground mb-4">Timings</h4>
           <ul className="space-y-2 text-sm text-primary-foreground/60">
-            <li>Mon – Sat: 9:00 AM – 5:00 PM</li>
+            <li>Mon – Sat: 10:00 AM – 6:00 PM</li>
             <li>Sunday: By Appointment</li>
           </ul>
           <div className="mt-4">
@@ -128,7 +132,7 @@ const Footer = () => (
         </div>
       </div>
 
-      {/* Links grid — two layers */}
+      {/* Links grid */}
       <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
         {footerLinks.map((section) => (
           <div key={section.title}>
