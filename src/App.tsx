@@ -209,7 +209,7 @@ const App = () => (
                 { name: "Patient Journey", description: "Step-by-step guide from consultation to recovery.", href: "/patient-resources/journey" },
                 { name: "FAQs", description: "Answers to commonly asked questions about surgery.", href: "/patient-resources/faqs" },
                 { name: "Before & After", description: "Real patient transformation results.", href: "/patient-resources/before-after" },
-                { name: "Testimonials", description: "Hear from patients who've been through it.", href: "/patient-resources/testimonials" },
+                { name: "Testimonials", description: "Hear from patients who've been through it.", href: "/media/patient-stories" },
                 { name: "Insurance & Cost", description: "Insurance coverage and payment information.", href: "/patient-resources/insurance" },
               ]} />
             } />

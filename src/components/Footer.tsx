@@ -38,7 +38,7 @@ const footerLinks = [
       { name: "Patient Journey", href: "/patient-resources/journey" },
       { name: "FAQs", href: "/patient-resources/faqs" },
       { name: "Before & After", href: "/patient-resources/before-after" },
-      { name: "Testimonials", href: "/patient-resources/testimonials" },
+      { name: "Testimonials", href: "/media/patient-stories" },
       { name: "Insurance & Cost", href: "/patient-resources/insurance" },
     ],
   },
