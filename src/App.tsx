@@ -247,6 +247,7 @@ const App = () => (
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
