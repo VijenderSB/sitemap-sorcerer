@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, MessageCircle, Send, ArrowRight, Calendar, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const BookAppointmentPage = () => {
   const { toast } = useToast();
