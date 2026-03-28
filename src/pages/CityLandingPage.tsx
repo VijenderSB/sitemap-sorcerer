@@ -6,6 +6,7 @@ import SEOHead from "@/components/SEOHead";
 import { cities, getNearbyCities, type CityData } from "@/data/cityData";
 import doctorImg from "@/assets/doctor-portrait.jpg";
 import surgeryRoboticImg from "@/assets/surgery-robotic-bariatric.jpg";
+import InlineAppointmentForm from "@/components/InlineAppointmentForm";
 
 const services = [
   {
