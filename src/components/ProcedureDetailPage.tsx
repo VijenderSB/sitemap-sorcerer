@@ -10,6 +10,11 @@ interface Procedure {
   href?: string;
 }
 
+interface ContentSection {
+  title: string;
+  content: string;
+}
+
 interface ProcedureDetailPageProps {
   title: string;
   subtitle: string;
@@ -18,6 +23,9 @@ interface ProcedureDetailPageProps {
   procedures: Procedure[];
   benefits?: string[];
   ctaText?: string;
+  sections?: ContentSection[];
+  imageSrc?: string;
+  imageAlt?: string;
 }
 
 const ProcedureDetailPage = ({
@@ -28,21 +36,72 @@ const ProcedureDetailPage = ({
   procedures,
   benefits,
   ctaText = "Book Consultation",
+  sections,
+  imageSrc,
+  imageAlt,
 }: ProcedureDetailPageProps) => (
   <div>
     <PageHero title={title} subtitle={subtitle} breadcrumb={breadcrumb} />
 
-    {overview && (
+    {/* Overview with optional image */}
+    {(overview || imageSrc) && (
       <section className="py-16">
-        <div className="container max-w-4xl">
-          <p className="text-muted-foreground leading-relaxed text-lg">{overview}</p>
+        <div className="container max-w-5xl">
+          <div className={`${imageSrc ? "grid lg:grid-cols-2 gap-12 items-start" : ""}`}>
+            {overview && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+              >
+                <p className="text-muted-foreground leading-relaxed text-lg">{overview}</p>
+              </motion.div>
+            )}
+            {imageSrc && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.15 }}
+              >
+                <img
+                  src={imageSrc}
+                  alt={imageAlt || title}
+                  className="rounded-2xl shadow-medical-lg w-full object-cover aspect-[4/3]"
+                  loading="lazy"
+                />
+              </motion.div>
+            )}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* Detailed content sections */}
+    {sections && sections.length > 0 && (
+      <section className="py-12">
+        <div className="container max-w-5xl">
+          <div className="space-y-10">
+            {sections.map((s, i) => (
+              <motion.div
+                key={s.title}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05 }}
+              >
+                <h2 className="text-2xl font-bold font-heading text-foreground mb-4">{s.title}</h2>
+                <p className="text-muted-foreground leading-relaxed">{s.content}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
     )}
 
     {benefits && benefits.length > 0 && (
       <section className="py-16 bg-muted/50">
-        <div className="container max-w-4xl">
+        <div className="container max-w-5xl">
           <h2 className="text-2xl font-bold font-heading text-foreground mb-6">Key Benefits</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {benefits.map((b) => (
@@ -58,8 +117,8 @@ const ProcedureDetailPage = ({
       </section>
     )}
 
-    <section className={`py-16 ${benefits ? "" : ""}`}>
-      <div className="container max-w-4xl">
+    <section className="py-16">
+      <div className="container max-w-5xl">
         {procedures.length > 0 && (
           <>
             <h2 className="text-2xl font-bold font-heading text-foreground mb-8">
