@@ -18,7 +18,7 @@ const HospitalsSection = () => (
         className="text-center mb-10"
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-secondary">Affiliations</span>
-        <h2 className="text-2xl font-bold font-heading text-foreground mt-2">Hospital Affiliations</h2>
+        <h2 className="text-2xl font-bold font-heading text-foreground mt-2">Hospital in Delhi</h2>
       </motion.div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
         {hospitals.map((h, i) => (

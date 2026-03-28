@@ -41,7 +41,7 @@ const HeroSection = () => {
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/5 px-4 py-1.5 text-sm text-primary-foreground/90 backdrop-blur-sm">
                 <Shield className="h-3.5 w-3.5" />
-                India's Leading Robotic Surgeon
+                Delhi's Leading Robotic Surgeon | Max Hospital Dwarka
               </span>
             </motion.div>
 
@@ -51,8 +51,8 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading leading-tight text-primary-foreground mb-6"
             >
-              Precision Robotic Surgery for{" "}
-              <span className="text-medical-teal">Better Outcomes</span>
+              Best Robotic Surgeon in Delhi for{" "}
+              <span className="text-medical-teal">GI & Bariatric Surgery</span>
             </motion.h1>
 
             <motion.p
@@ -62,8 +62,8 @@ const HeroSection = () => {
               className="text-lg text-primary-foreground/70 mb-8 max-w-lg leading-relaxed"
             >
               <span className="block font-semibold text-primary-foreground/90 whitespace-nowrap mb-2">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery<br />Max Super Speciality Hospital Dwarka</span>
-              Dr. Randeep Wadhawan — 20+ years of expertise in robotic GI &
-              bariatric surgery. Smaller incisions. Faster recovery. Superior results.
+              Dr. Randeep Wadhawan — Delhi's top robotic surgeon with 20+ years of expertise in robotic GI &
+              bariatric surgery at Max Hospital, Dwarka. Smaller incisions. Faster recovery. Superior results.
             </motion.p>
 
             <motion.div
@@ -130,7 +130,7 @@ const HeroSection = () => {
                 Request Appointment <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <p className="text-xs text-primary-foreground/40 text-center">
-                Or call us: <a href="tel:+919999999999" className="underline text-primary-foreground/60 hover:text-primary-foreground"><Phone className="inline h-3 w-3" /> +91 99999 99999</a>
+                Or call us: <a href="tel:+917042373880" className="underline text-primary-foreground/60 hover:text-primary-foreground"><Phone className="inline h-3 w-3" /> +91 7042373880</a>
               </p>
             </form>
           </motion.div>

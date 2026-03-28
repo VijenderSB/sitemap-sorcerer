@@ -6,25 +6,25 @@ const procedures = [
   {
     icon: Bot,
     title: "Robotic Bariatric Surgery",
-    desc: "Sleeve gastrectomy, gastric bypass & revision surgeries with robotic precision.",
+    desc: "Best robotic bariatric surgery in Delhi — sleeve gastrectomy, gastric bypass & revision surgeries.",
     href: "/robotic-bariatric-surgery",
   },
   {
     icon: Activity,
     title: "Robotic GI Surgery",
-    desc: "Hernia, gallbladder, colon, rectal & cancer surgeries using robotic assistance.",
+    desc: "Robotic GI surgery in Delhi — hernia, gallbladder, colon, rectal & cancer procedures.",
     href: "/robotic-gi-surgery",
   },
   {
     icon: Scissors,
     title: "Laparoscopic Surgery",
-    desc: "Advanced laparoscopic bariatric, hernia, gallbladder & appendix procedures.",
+    desc: "Expert laparoscopic surgery in Delhi — bariatric, hernia, gallbladder & appendix procedures.",
     href: "/laparoscopic-surgery",
   },
   {
     icon: Weight,
     title: "Bariatric / Weight Loss",
-    desc: "Comprehensive weight loss solutions including BMI assessment & surgery options.",
+    desc: "Weight loss surgery in Delhi — comprehensive bariatric solutions with BMI assessment.",
     href: "/bariatric-surgery",
   },
 ];
@@ -40,10 +40,10 @@ const ProceduresSection = () => (
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-secondary">Procedures</span>
         <h2 className="text-3xl lg:text-4xl font-bold font-heading text-foreground mt-2">
-          Surgical Specialties
+          Surgical Specialties in Delhi
         </h2>
         <p className="mt-3 max-w-xl mx-auto text-muted-foreground">
-          Advanced robotic and laparoscopic procedures tailored to your needs.
+          Advanced robotic and laparoscopic procedures at Max Hospital, Dwarka, New Delhi.
         </p>
       </motion.div>
 

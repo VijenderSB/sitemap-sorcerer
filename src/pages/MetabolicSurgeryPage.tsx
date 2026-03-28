@@ -1,11 +1,17 @@
 import ProcedureDetailPage from "@/components/ProcedureDetailPage";
+import SEOHead from "@/components/SEOHead";
 
 const MetabolicSurgeryPage = () => (
-  <ProcedureDetailPage
-    title="Metabolic Surgery"
-    subtitle="Tailored surgical solutions for type 2 diabetes, metabolic syndrome, and hormonal conditions associated with obesity."
-    breadcrumb="Procedures > Metabolic Surgery"
-    overview="Metabolic surgery addresses conditions like type 2 diabetes, metabolic syndrome, and hormonal disorders closely linked to obesity. Dr. Wadhawan performs tailored laparoscopic and robotic metabolic procedures including Duodeno-Jejunal Bypass (DJB) and SADI-S for remission of Type II Diabetes and Metabolic Syndrome. These procedures not only promote weight loss but directly improve metabolic function, often leading to complete remission of diabetes and other conditions even in patients with BMI < 35."
+  <>
+    <SEOHead
+      title="Best Metabolic Surgery in Delhi | Diabetes Surgery | Dr. Randeep Wadhawan"
+      description="Best metabolic surgery for diabetes in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. DJB, SADI-S for type 2 diabetes remission. Book consultation."
+    />
+    <ProcedureDetailPage
+      title="Metabolic Surgery in Delhi"
+      subtitle="Tailored surgical solutions for type 2 diabetes and metabolic syndrome at Max Hospital, Dwarka, Delhi."
+      breadcrumb="Procedures > Metabolic Surgery in Delhi"
+      overview="Looking for metabolic surgery for diabetes in Delhi? Dr. Wadhawan performs tailored robotic and laparoscopic metabolic procedures including DJB and SADI-S at Max Super Speciality Hospital, Dwarka. These procedures promote weight loss and directly improve metabolic function, often leading to complete remission of type 2 diabetes even in patients with BMI < 35. Patients across Delhi NCR and India trust his expertise."
     benefits={[
       "Type 2 diabetes remission in up to 80% of patients",
       "Tailored DJB and SADI-S procedures",
@@ -23,6 +29,7 @@ const MetabolicSurgeryPage = () => (
       { name: "Metabolic Syndrome Surgery", description: "Targets the cluster of conditions — high blood pressure, high blood sugar, excess abdominal fat, and abnormal cholesterol — through surgical intervention for lasting improvement." },
     ]}
   />
+  </>
 );
 
 export default MetabolicSurgeryPage;

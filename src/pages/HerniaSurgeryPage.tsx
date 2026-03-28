@@ -1,11 +1,17 @@
 import ProcedureDetailPage from "@/components/ProcedureDetailPage";
+import SEOHead from "@/components/SEOHead";
 
 const HerniaSurgeryPage = () => (
-  <ProcedureDetailPage
-    title="Hernia Surgery"
-    subtitle="Comprehensive hernia treatment — robotic, laparoscopic, and open approaches. Hernia Centre of Excellence accredited by the Hernia Society of India."
-    breadcrumb="Procedures > Hernia Surgery"
-    overview="Hernias occur when an organ or tissue pushes through a weak spot in surrounding muscle or connective tissue. Dr. Wadhawan offers all approaches to hernia repair, with robotic surgery as the preferred option for its superior precision and faster recovery. He completed fellowship in Abdominal Wall Reconstruction under Prof. Yuri Novitsky at University Hospitals, Cleveland, USA, and has extensive experience in complex hernia cases. The department is accredited as a Hernia Centre of Excellence by the Hernia Society of India."
+  <>
+    <SEOHead
+      title="Best Hernia Surgery in Delhi | Robotic & Laparoscopic | Dr. Randeep Wadhawan"
+      description="Best hernia surgery in Delhi by Dr. Randeep Wadhawan at Max Hospital Dwarka. Robotic & laparoscopic hernia repair — inguinal, incisional, umbilical, hiatus. Book consultation."
+    />
+    <ProcedureDetailPage
+      title="Hernia Surgery in Delhi"
+      subtitle="Delhi's best hernia treatment — robotic, laparoscopic, and open approaches at Max Hospital, Dwarka. Hernia Centre of Excellence accredited by the Hernia Society of India."
+      breadcrumb="Procedures > Hernia Surgery in Delhi"
+      overview="Looking for the best hernia surgery in Delhi? Dr. Wadhawan offers all approaches to hernia repair at Max Super Speciality Hospital, Dwarka, with robotic surgery as the preferred option for its superior precision and faster recovery. He completed fellowship in Abdominal Wall Reconstruction under Prof. Yuri Novitsky at University Hospitals, Cleveland, USA. Patients across Delhi NCR trust him for complex hernia cases. The department is accredited as a Hernia Centre of Excellence by the Hernia Society of India."
     benefits={[
       "Fellowship-trained under Prof. Novitsky (Cleveland, USA)",
       "Hernia Centre of Excellence (HSI accredited)",
@@ -22,6 +28,7 @@ const HerniaSurgeryPage = () => (
       { name: "Hiatus Hernia Repair", description: "Repair of diaphragmatic hernias associated with esophageal reflux, often combined with fundoplication for acid reflux prevention." },
     ]}
   />
+  </>
 );
 
 export default HerniaSurgeryPage;
