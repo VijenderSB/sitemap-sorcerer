@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, ChevronRight } from "lucide-react";
-import logoImg from "@/assets/logo-dr-wadhawan-light.png";
+
 
 const footerLinks = [
   {
@@ -78,9 +78,14 @@ const Footer = () => (
       {/* Top row: Doctor details + contact */}
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 mb-12 pb-10 border-b border-primary-foreground/10">
         <div className="lg:col-span-2">
-          <div className="mb-4">
-            <img src={logoImg} alt="Dr. Randeep Wadhawan" className="h-16 w-auto mb-3" loading="lazy" width={512} height={512} />
-            <span className="block text-xs text-primary-foreground/60">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
+          <div className="flex items-center gap-2.5 mb-4">
+            <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary-foreground/10">
+              <span className="text-xl font-bold text-primary-foreground font-heading">RW</span>
+            </div>
+            <div>
+              <span className="block font-heading font-bold text-primary-foreground text-lg">Dr. Randeep Wadhawan</span>
+              <span className="block text-xs text-primary-foreground/60">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
+            </div>
           </div>
           <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-xl mb-4">
             <span className="whitespace-nowrap">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery</span><br />
