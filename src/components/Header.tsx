@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AnimatePresence, motion } from "framer-motion";
-import logoImg from "@/assets/logo-dr-wadhawan.png";
+
 
 interface NavChild {
   name: string;
