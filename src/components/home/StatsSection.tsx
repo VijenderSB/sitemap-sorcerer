@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "20+", label: "Years Experience" },
-  { value: "5000+", label: "Surgeries Performed" },
+  { value: "20+", label: "Years in Delhi" },
+  { value: "60,000+", label: "Surgeries Performed" },
   { value: "98%", label: "Success Rate" },
   { value: "50+", label: "Awards & Honors" },
 ];

@@ -109,7 +109,7 @@ const FAQSection = () => (
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-secondary">FAQ</span>
         <h2 className="text-3xl lg:text-4xl font-bold font-heading text-foreground mt-2">
-          Frequently Asked Questions
+          Frequently Asked Questions About Robotic Surgery in Delhi
         </h2>
       </motion.div>
 
