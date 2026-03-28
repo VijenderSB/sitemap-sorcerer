@@ -15,7 +15,7 @@ const HeroSection = () => (
     />
     <div className="absolute inset-0 bg-gradient-to-r from-medical-navy/95 via-medical-navy/80 to-transparent" />
 
-    <div className="container relative z-10 py-20">
+    <div className="container relative z-10 py-14">
       <div className="max-w-2xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
