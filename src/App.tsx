@@ -106,14 +106,17 @@ const bariatricProcedures = [
 ];
 
 // Helper for sub-procedure pages
-const subProcedure = (title: string, subtitle: string, breadcrumb: string, description: string, benefits: string[]) => (
+const subProcedure = (data: SC.SurgeryPageData, img?: string) => (
   <ProcedureDetailPage
-    title={title}
-    subtitle={subtitle}
-    breadcrumb={breadcrumb}
-    overview={description}
-    benefits={benefits}
+    title={data.title}
+    subtitle={data.subtitle}
+    breadcrumb={data.breadcrumb}
+    overview={data.overview}
+    benefits={data.benefits}
     procedures={[]}
+    sections={data.sections}
+    imageSrc={img}
+    imageAlt={data.imageAlt}
   />
 );
 
