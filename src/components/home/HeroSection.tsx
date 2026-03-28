@@ -61,7 +61,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg text-primary-foreground/70 mb-8 max-w-lg leading-relaxed"
             >
-              <span className="block font-semibold text-primary-foreground/90 whitespace-nowrap">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery</span>
+              <span className="block font-semibold text-primary-foreground/90 whitespace-nowrap mb-2">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery<br />Max Super Speciality Hospital Dwarka</span>
               Dr. Randeep Wadhawan — 20+ years of expertise in robotic GI &
               bariatric surgery. Smaller incisions. Faster recovery. Superior results.
             </motion.p>
