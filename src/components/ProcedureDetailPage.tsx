@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Clock, Shield, Activity, Heart, Stethoscope, Zap } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import InlineAppointmentForm from "@/components/InlineAppointmentForm";
 
 interface Procedure {
   name: string;
