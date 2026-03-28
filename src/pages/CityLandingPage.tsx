@@ -6,6 +6,7 @@ import SEOHead from "@/components/SEOHead";
 import { cities, getNearbyCities, type CityData } from "@/data/cityData";
 import doctorImg from "@/assets/doctor-portrait.jpg";
 import surgeryRoboticImg from "@/assets/surgery-robotic-bariatric.jpg";
+import InlineAppointmentForm from "@/components/InlineAppointmentForm";
 
 const services = [
   {
@@ -310,7 +311,17 @@ const CityLandingPage = () => {
         </div>
       </section>
 
-      {/* Nearby Cities Interlinking */}
+      {/* Inline Appointment Form */}
+      <section className="py-16">
+        <div className="container max-w-4xl">
+          <InlineAppointmentForm
+            heading={`Book Appointment from ${city.name}`}
+            subheading={`Patients from ${city.name} can book a consultation with Dr. Randeep Wadhawan. Tele-consultation available for initial assessment.`}
+          />
+        </div>
+      </section>
+
+
       <section className="py-16">
         <div className="container">
           <motion.div {...fadeIn}>

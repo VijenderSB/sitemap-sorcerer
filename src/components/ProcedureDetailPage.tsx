@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Clock, Shield, Activity, Heart, Stethoscope, Zap } from "lucide-react";
 import PageHero from "@/components/PageHero";
+import InlineAppointmentForm from "@/components/InlineAppointmentForm";
 
 interface Procedure {
   name: string;
@@ -192,17 +193,30 @@ const ProcedureDetailPage = ({
       </section>
     )}
 
+    {/* Inline Appointment Form */}
+    <section className="py-14 bg-muted/30">
+      <div className="container max-w-4xl">
+        <InlineAppointmentForm
+          heading="Book Your Consultation"
+          subheading="Discuss your treatment options with Dr. Randeep Wadhawan. Fill in your details below."
+        />
+      </div>
+    </section>
+
     {/* CTA */}
     <section className="py-14">
       <div className="container max-w-4xl text-center">
         <h2 className="text-2xl font-bold font-heading text-foreground mb-3">Ready to Take the Next Step?</h2>
         <p className="text-muted-foreground mb-6">Book a consultation with Dr. Randeep Wadhawan to discuss your treatment options.</p>
-        <Button asChild size="lg">
-          <Link to="/book-appointment">
+        <div className="flex flex-wrap justify-center gap-4">
+          <Button size="lg" onClick={() => { import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
             {ctaText}
             <ArrowRight className="ml-2 h-4 w-4" />
-          </Link>
-        </Button>
+          </Button>
+          <Button size="lg" variant="outline" asChild>
+            <a href="tel:+917042373880">Call +91 7042373880</a>
+          </Button>
+        </div>
       </div>
     </section>
   </div>
