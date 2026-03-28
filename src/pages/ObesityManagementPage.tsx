@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import { Link } from "react-router-dom";
 import { Apple, Pill, Bot, Scissors, Users, Globe, UserCheck, Cpu, HeartPulse, ArrowRight } from "lucide-react";
 
