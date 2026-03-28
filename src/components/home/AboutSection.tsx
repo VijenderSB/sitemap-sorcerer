@@ -42,7 +42,7 @@ const AboutSection = () => (
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
             One of India's most experienced robotic surgeons, Dr. Randeep Wadhawan specializes in
-            robotic-assisted GI and bariatric surgery. With over 5,000 successful procedures, he is
+            robotic-assisted GI and bariatric surgery. With over 60,000 successful procedures, he is
             recognized nationally and internationally for his expertise in minimally invasive surgery.
           </p>
 
