@@ -41,9 +41,10 @@ const AboutSection = () => (
             Dr. Randeep Wadhawan
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            One of India's most experienced robotic surgeons, Dr. Randeep Wadhawan specializes in
-            robotic-assisted GI and bariatric surgery. With over 60,000 successful procedures, he is
-            recognized nationally and internationally for his expertise in minimally invasive surgery.
+            Delhi's most experienced robotic surgeon, Dr. Randeep Wadhawan specializes in
+            robotic-assisted GI and bariatric surgery at Max Super Speciality Hospital, Dwarka.
+            With over 60,000 successful procedures, he is the top choice for patients seeking
+            robotic surgery in Delhi NCR and across India.
           </p>
 
           <div className="space-y-4 mb-8">

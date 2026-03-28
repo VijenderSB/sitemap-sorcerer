@@ -130,7 +130,7 @@ const HeroSection = () => {
                 Request Appointment <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <p className="text-xs text-primary-foreground/40 text-center">
-                Or call us: <a href="tel:+919999999999" className="underline text-primary-foreground/60 hover:text-primary-foreground"><Phone className="inline h-3 w-3" /> +91 99999 99999</a>
+                Or call us: <a href="tel:+917042373880" className="underline text-primary-foreground/60 hover:text-primary-foreground"><Phone className="inline h-3 w-3" /> +91 7042373880</a>
               </p>
             </form>
           </motion.div>

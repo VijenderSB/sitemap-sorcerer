@@ -17,10 +17,10 @@ const ContactSection = () => (
       </motion.div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
         {[
-          { icon: Phone, label: "Call", value: "+91 99999 99999", href: "tel:+919999999999" },
-          { icon: MessageCircle, label: "WhatsApp", value: "Quick Chat", href: "https://wa.me/919999999999" },
-          { icon: Mail, label: "Email", value: "info@drrandeep.com", href: "mailto:info@drrandeep.com" },
-          { icon: MapPin, label: "Location", value: "New Delhi, India", href: "/hospitals" },
+          { icon: Phone, label: "Call", value: "+91 7042373880", href: "tel:+917042373880" },
+          { icon: MessageCircle, label: "WhatsApp", value: "Chat Now", href: "https://wa.me/919810155826" },
+          { icon: Mail, label: "Email", value: "randeepwadhawan@yahoo.com", href: "mailto:randeepwadhawan@yahoo.com" },
+          { icon: MapPin, label: "Location", value: "Max Hospital, Dwarka, Delhi", href: "/hospitals" },
         ].map((c) => (
           <a
             key={c.label}

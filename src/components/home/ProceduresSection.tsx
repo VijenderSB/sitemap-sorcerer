@@ -24,7 +24,7 @@ const procedures = [
   {
     icon: Weight,
     title: "Bariatric / Weight Loss",
-    desc: "Comprehensive weight loss solutions including BMI assessment & surgery options.",
+    desc: "Weight loss surgery in Delhi — comprehensive bariatric solutions with BMI assessment.",
     href: "/bariatric-surgery",
   },
 ];
