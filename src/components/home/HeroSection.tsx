@@ -5,7 +5,7 @@ import { ArrowRight, Shield } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden min-h-[85vh] flex items-center">
+  <section className="relative overflow-hidden min-h-[60vh] flex items-center">
     <img
       src={heroBg}
       alt="Robotic surgery technology"
