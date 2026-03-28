@@ -29,7 +29,7 @@ const seoPages: Record<string, { title: string; subtitle: string; overview: stri
     title: "Best Laparoscopic Surgeon in Delhi",
     subtitle: "Expert laparoscopic surgery in Delhi for bariatric, hernia, and GI procedures.",
     overview: "Dr. Randeep Wadhawan is among Delhi's most experienced laparoscopic surgeons, offering advanced minimally invasive procedures for weight loss, hernia repair, gallbladder removal, appendectomy, and colorectal conditions. While he specializes in robotic surgery, his mastery of laparoscopic techniques provides patients with excellent outcomes through proven minimally invasive approaches.",
-    breadcrumb: "SEO > Laparoscopic Surgeon Delhi",
+    breadcrumb: "Best Laparoscopic Surgeon in Delhi",
   },
 };
 
