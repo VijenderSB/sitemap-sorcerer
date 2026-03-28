@@ -12,7 +12,7 @@ const procedures = [
   {
     icon: Activity,
     title: "Robotic GI Surgery",
-    desc: "Hernia, gallbladder, colon, rectal & cancer surgeries using robotic assistance.",
+    desc: "Robotic GI surgery in Delhi — hernia, gallbladder, colon, rectal & cancer procedures.",
     href: "/robotic-gi-surgery",
   },
   {
