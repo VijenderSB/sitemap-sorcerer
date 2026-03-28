@@ -285,23 +285,13 @@ const AboutPage = () => (
       </div>
     </section>
 
-    {/* CTA */}
+    {/* Inline Appointment Form */}
     <section className="py-16">
-      <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl font-bold font-heading text-foreground mb-4">
-          Consult Dr. Randeep Wadhawan
-        </h2>
-        <p className="text-muted-foreground mb-6">
-          30+ years of surgical excellence. Book your consultation today.
-        </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <Button size="lg" asChild>
-            <Link to="/book-appointment">Book Appointment</Link>
-          </Button>
-          <Button size="lg" variant="outline" asChild>
-            <a href="tel:+917042373880">Call +91 7042373880</a>
-          </Button>
-        </div>
+      <div className="container max-w-4xl">
+        <InlineAppointmentForm
+          heading="Consult Dr. Randeep Wadhawan"
+          subheading="30+ years of surgical excellence. Book your consultation today."
+        />
       </div>
     </section>
   </div>
