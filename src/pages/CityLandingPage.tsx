@@ -4,6 +4,8 @@ import { MapPin, Phone, ArrowRight, CheckCircle2, Star, Clock, Shield, Award, Us
 import { Button } from "@/components/ui/button";
 import SEOHead from "@/components/SEOHead";
 import { cities, getNearbyCities, type CityData } from "@/data/cityData";
+import doctorImg from "@/assets/doctor-portrait.jpg";
+import surgeryRoboticImg from "@/assets/surgery-robotic-bariatric.jpg";
 
 const services = [
   {
