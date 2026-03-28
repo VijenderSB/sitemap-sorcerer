@@ -44,6 +44,7 @@ import HerniaSurgeryPage from "./pages/HerniaSurgeryPage";
 import GISurgeryPage from "./pages/GISurgeryPage";
 import SEOLandingPage from "./pages/SEOLandingPage";
 import CityLandingPage from "./pages/CityLandingPage";
+import CitiesPage from "./pages/CitiesPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
