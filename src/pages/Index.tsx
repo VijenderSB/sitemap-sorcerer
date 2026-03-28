@@ -8,7 +8,7 @@ import ObesityManagementSection from "@/components/home/ObesityManagementSection
 import LaparoscopicSection from "@/components/home/LaparoscopicSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import BeforeAfterSection from "@/components/home/BeforeAfterSection";
-import HospitalsSection from "@/components/home/HospitalsSection";
+
 import AwardsSection from "@/components/home/AwardsSection";
 import FAQSection from "@/components/home/FAQSection";
 import ContactSection from "@/components/home/ContactSection";
