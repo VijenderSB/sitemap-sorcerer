@@ -29,6 +29,7 @@ import VideosPage from "./pages/VideosPage";
 import PatientStoriesPage from "./pages/PatientStoriesPage";
 import NewsPage from "./pages/NewsPage";
 import MetabolicSurgeryPage from "./pages/MetabolicSurgeryPage";
+import ObesityManagementPage from "./pages/ObesityManagementPage";
 import HerniaSurgeryPage from "./pages/HerniaSurgeryPage";
 import GISurgeryPage from "./pages/GISurgeryPage";
 import SEOLandingPage from "./pages/SEOLandingPage";
