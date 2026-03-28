@@ -78,14 +78,9 @@ const Footer = () => (
       {/* Top row: Doctor details + contact */}
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 mb-12 pb-10 border-b border-primary-foreground/10">
         <div className="lg:col-span-2">
-          <div className="flex items-center gap-2.5 mb-4">
-            <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary-foreground/10">
-              <span className="text-xl font-bold text-primary-foreground font-heading">RW</span>
-            </div>
-            <div>
-              <span className="block font-heading font-bold text-primary-foreground text-lg">Dr. Randeep Wadhawan</span>
-              <span className="block text-xs text-primary-foreground/60">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
-            </div>
+          <div className="mb-4">
+            <span className="block font-heading font-bold text-primary-foreground text-xl leading-tight">Dr. Randeep Wadhawan</span>
+            <span className="block text-[10px] text-primary-foreground/50 mt-1">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
           </div>
           <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-xl mb-4">
             <span className="whitespace-nowrap">Chairman – Gastrointestinal, Bariatric, Laparoscopic, and Robotic Surgery</span><br />

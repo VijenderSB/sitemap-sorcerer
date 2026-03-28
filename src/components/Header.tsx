@@ -130,8 +130,14 @@ const navigation: NavItem[] = [
       { name: "News & Media", href: "/media/news" },
     ],
   },
-  { name: "Hospitals", href: "/hospitals" },
-  { name: "Contact", href: "/contact" },
+  {
+    name: "Contact",
+    href: "/contact",
+    children: [
+      { name: "Contact Us", href: "/contact" },
+      { name: "Hospitals", href: "/hospitals" },
+    ],
+  },
 ];
 
 const Header = () => {
@@ -185,14 +191,10 @@ const Header = () => {
       {/* Main nav */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         <div className="container flex h-16 items-center justify-between">
-          <Link to="/" className="flex items-center gap-2.5 shrink-0">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-              <span className="text-lg font-bold text-primary-foreground font-heading">RW</span>
-            </div>
-            <div className="leading-tight">
-              <span className="block text-sm font-bold font-heading text-foreground">Dr. Randeep Wadhawan</span>
-              <span className="block text-[11px] text-muted-foreground">Robotic & Laparoscopic Surgeon</span>
-            </div>
+          <Link to="/" className="flex flex-col shrink-0">
+            <span className="text-base font-bold font-heading text-foreground leading-tight">Dr. Randeep Wadhawan</span>
+            <span className="text-[9px] text-muted-foreground leading-tight">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)</span>
+            <span className="text-[11px] font-medium text-muted-foreground leading-tight">Chairman – GI, Bariatric, Laparoscopic & Robotic Surgery, Max Dwarka</span>
           </Link>
 
           {/* Desktop nav */}
