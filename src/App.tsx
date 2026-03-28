@@ -268,6 +268,7 @@ const App = () => (
         </main>
         <Footer />
         <WhatsAppButton />
+        <StickyAppointmentForm />
         <LeadCapturePopup />
       </BrowserRouter>
     </TooltipProvider>
