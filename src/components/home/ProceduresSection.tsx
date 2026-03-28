@@ -40,10 +40,10 @@ const ProceduresSection = () => (
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-secondary">Procedures</span>
         <h2 className="text-3xl lg:text-4xl font-bold font-heading text-foreground mt-2">
-          Surgical Specialties
+          Surgical Specialties in Delhi
         </h2>
         <p className="mt-3 max-w-xl mx-auto text-muted-foreground">
-          Advanced robotic and laparoscopic procedures tailored to your needs.
+          Advanced robotic and laparoscopic procedures at Max Hospital, Dwarka, New Delhi.
         </p>
       </motion.div>
 
