@@ -45,19 +45,19 @@ const BookAppointmentPage = () => {
 
               <div className="space-y-4 mb-10">
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+917042373880"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
                 >
                   <div className="rounded-xl bg-accent p-3"><Phone className="h-6 w-6 text-accent-foreground" /></div>
                   <div>
                     <p className="font-heading font-semibold text-foreground">Call Now</p>
-                    <p className="text-sm text-muted-foreground">+91 99999 99999</p>
+                    <p className="text-sm text-muted-foreground">+91 7042373880</p>
                   </div>
                   <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto" />
                 </a>
 
                 <a
-                  href="https://wa.me/919999999999"
+                  href="https://wa.me/919810155826"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
@@ -71,13 +71,13 @@ const BookAppointmentPage = () => {
                 </a>
 
                 <a
-                  href="mailto:info@drrandeep.com"
+                  href="mailto:randeepwadhawan@yahoo.com"
                   className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 hover:shadow-medical transition-shadow"
                 >
                   <div className="rounded-xl bg-accent p-3"><Mail className="h-6 w-6 text-accent-foreground" /></div>
                   <div>
                     <p className="font-heading font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">info@drrandeep.com</p>
+                    <p className="text-sm text-muted-foreground">randeepwadhawan@yahoo.com</p>
                   </div>
                   <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto" />
                 </a>
