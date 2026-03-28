@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Check, ArrowRight, Bot, Scissors, Stethoscope } from "lucide-react";
 import roboticImg from "@/assets/robotic-surgery.jpg";
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 
 const comparisons = [
   { feature: "Precision", robotic: "Sub-millimeter", laparoscopic: "Good", open: "Limited" },
