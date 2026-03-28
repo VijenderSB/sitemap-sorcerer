@@ -18,7 +18,7 @@ const procedures = [
   {
     icon: Scissors,
     title: "Laparoscopic Surgery",
-    desc: "Advanced laparoscopic bariatric, hernia, gallbladder & appendix procedures.",
+    desc: "Expert laparoscopic surgery in Delhi — bariatric, hernia, gallbladder & appendix procedures.",
     href: "/laparoscopic-surgery",
   },
   {
