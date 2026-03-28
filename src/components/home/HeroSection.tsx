@@ -41,7 +41,7 @@ const HeroSection = () => {
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/5 px-4 py-1.5 text-sm text-primary-foreground/90 backdrop-blur-sm">
                 <Shield className="h-3.5 w-3.5" />
-                India's Leading Robotic Surgeon
+                Delhi's Leading Robotic Surgeon | Max Hospital Dwarka
               </span>
             </motion.div>
 
