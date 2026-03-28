@@ -56,8 +56,8 @@ const HeroSection = () => (
           className="flex flex-wrap gap-4"
         >
           <Button size="lg" asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-            <Link to="/contact">
-              Book Consultation
+            <Link to="/book-appointment">
+              Book Appointment
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
