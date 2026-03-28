@@ -256,6 +256,9 @@ const App = () => (
             <Route path="/robotic-gi-surgeon-delhi" element={<SEOLandingPage slug="robotic-gi-surgeon-delhi" />} />
             <Route path="/laparoscopic-surgeon-delhi" element={<SEOLandingPage slug="laparoscopic-surgeon-delhi" />} />
 
+            {/* City Landing Pages */}
+            <Route path="/best-surgeon/:citySlug" element={<CityLandingPage />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
