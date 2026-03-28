@@ -10,7 +10,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const HeroSection = () => {
   const { toast } = useToast();
-  const [form, setForm] = useState({ name: "", phone: "", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", age: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
