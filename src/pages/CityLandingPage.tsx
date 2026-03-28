@@ -132,35 +132,58 @@ const CityLandingPage = () => {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-secondary/10 py-16 lg:py-24">
         <div className="container">
-          <motion.div {...fadeIn} className="max-w-4xl">
-            <div className="flex items-center gap-2 text-sm text-secondary font-semibold mb-4">
-              <MapPin className="h-4 w-4" />
-              Serving patients from {city.name}, {city.state}
-            </div>
-            <h1 className="text-3xl lg:text-5xl font-extrabold font-heading text-foreground leading-tight mb-6">
-              Best Robotic & Laparoscopic Surgeon for{" "}
-              <span className="text-primary">{city.name}</span> Patients
-            </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-3xl">
-              {isNCR
-                ? `As a neighbouring city to Delhi, ${city.name} patients can easily access Dr. Randeep Wadhawan's world-class robotic surgery expertise at Max Super Speciality Hospital, Dwarka — just a short drive away.`
-                : `Patients from ${city.name} trust Dr. Randeep Wadhawan for advanced robotic and laparoscopic surgery at Max Super Speciality Hospital, Dwarka, New Delhi. With 60,000+ successful procedures and 30+ years of experience, he is India's most sought-after robotic surgeon.`}
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Button size="lg" asChild>
-                <Link to="/book-appointment">
-                  Book Consultation
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <a href="tel:+917042373880">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call +91 7042373880
-                </a>
-              </Button>
-            </div>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div {...fadeIn}>
+              <div className="flex items-center gap-2 text-sm text-secondary font-semibold mb-4">
+                <MapPin className="h-4 w-4" />
+                Serving patients from {city.name}, {city.state}
+              </div>
+              <h1 className="text-3xl lg:text-5xl font-extrabold font-heading text-foreground leading-tight mb-6">
+                Best Robotic & Laparoscopic Surgeon for{" "}
+                <span className="text-primary">{city.name}</span> Patients
+              </h1>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                {isNCR
+                  ? `As a neighbouring city to Delhi, ${city.name} patients can easily access Dr. Randeep Wadhawan's world-class robotic surgery expertise at Max Super Speciality Hospital, Dwarka — just a short drive away.`
+                  : `Patients from ${city.name} trust Dr. Randeep Wadhawan for advanced robotic and laparoscopic surgery at Max Super Speciality Hospital, Dwarka, New Delhi. With 60,000+ successful procedures and 30+ years of experience, he is India's most sought-after robotic surgeon.`}
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button size="lg" asChild>
+                  <Link to="/book-appointment">
+                    Book Consultation
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:+917042373880">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Call +91 7042373880
+                  </a>
+                </Button>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative"
+            >
+              <img
+                src={doctorImg}
+                alt="Dr. Randeep Wadhawan — Best Robotic Surgeon in Delhi"
+                className="rounded-2xl shadow-medical-lg w-full max-w-md mx-auto"
+                loading="lazy"
+                width={800}
+                height={1024}
+              />
+              <div className="absolute -bottom-4 -right-4 rounded-xl bg-primary p-4 shadow-medical text-primary-foreground">
+                <div className="text-2xl font-bold font-heading">60,000+</div>
+                <div className="text-xs">Successful Surgeries</div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
