@@ -217,4 +217,15 @@ $memberships = array(
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Consult Dr. Randeep Wadhawan';
+        $drw_form_subheading = '30+ years of surgical excellence. Book your consultation today.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>

@@ -75,4 +75,15 @@ get_header();
     </div>
 </section>
 
+<!-- Appointment Form -->
+<section class="section">
+    <div class="container container-sm">
+        <?php
+        $drw_form_heading = 'Book Hernia Surgery Consultation';
+        $drw_form_subheading = 'Discuss your hernia treatment options with Dr. Randeep Wadhawan.';
+        get_template_part('template-parts/appointment-form');
+        ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>
