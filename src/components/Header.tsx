@@ -345,8 +345,8 @@ const Header = () => {
                   </div>
                 ))}
                 <div className="pt-3">
-                  <Button asChild className="w-full">
-                    <Link to="/book-appointment" onClick={() => setMobileOpen(false)}>Book Appointment</Link>
+                  <Button className="w-full" onClick={() => { setMobileOpen(false); import("@/components/LeadCapturePopup").then(m => m.openLeadPopup()); }}>
+                    Book Appointment
                   </Button>
                 </div>
               </nav>
