@@ -1,4 +1,5 @@
 import PageHero from "@/components/PageHero";
+import SEOHead from "@/components/SEOHead";
 import { motion } from "framer-motion";
 
 const GalleryPage = () => (
