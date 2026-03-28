@@ -13,11 +13,11 @@ const CTASection = () => (
         className="rounded-3xl bg-gradient-hero p-10 md:p-16 text-center"
       >
         <h2 className="text-3xl lg:text-4xl font-bold font-heading text-primary-foreground mb-4">
-          Ready to Explore Robotic Surgery?
+          Consult Delhi's Best Robotic Surgeon
         </h2>
         <p className="text-primary-foreground/70 max-w-lg mx-auto mb-8 leading-relaxed">
-          Schedule a consultation with Dr. Randeep Wadhawan today and discover how
-          robotic surgery can transform your treatment experience.
+          Schedule a consultation with Dr. Randeep Wadhawan at Max Hospital, Dwarka, New Delhi.
+          Discover how robotic surgery can transform your treatment with faster recovery and superior outcomes.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
