@@ -5,7 +5,7 @@ import { ArrowRight, Shield } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden min-h-[85vh] flex items-center">
+  <section className="relative overflow-hidden min-h-[60vh] flex items-center">
     <img
       src={heroBg}
       alt="Robotic surgery technology"
@@ -15,7 +15,7 @@ const HeroSection = () => (
     />
     <div className="absolute inset-0 bg-gradient-to-r from-medical-navy/95 via-medical-navy/80 to-transparent" />
 
-    <div className="container relative z-10 py-20">
+    <div className="container relative z-10 py-14">
       <div className="max-w-2xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,8 +56,8 @@ const HeroSection = () => (
           className="flex flex-wrap gap-4"
         >
           <Button size="lg" asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-            <Link to="/contact">
-              Book Consultation
+            <Link to="/book-appointment">
+              Book Appointment
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
