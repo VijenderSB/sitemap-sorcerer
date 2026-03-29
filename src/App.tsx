@@ -25,6 +25,7 @@ import surgeryColonImg from "@/assets/surgery-colon.jpg";
 import colonSurgeryImg from "@/assets/colon-surgery.png";
 import bileDuctStonesImg from "@/assets/bile-duct-stones.png";
 import pseudopancreaticCystsImg from "@/assets/pseudopancreatic-cysts.png";
+import liverCystsImg from "@/assets/liver-cysts.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
@@ -226,7 +227,7 @@ const App = () => (
             } />
             <Route path="/advanced-laparoscopic-surgery/bile-duct-stones" element={subProcedure(SC.lapBileDuctStonesData, bileDuctStonesImg)} />
             <Route path="/advanced-laparoscopic-surgery/pseudopancreatic-cysts" element={subProcedure(SC.lapPseudopancreaticCystsData, pseudopancreaticCystsImg)} />
-            <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, surgeryLiverImg)} />
+            <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, liverCystsImg)} />
             <Route path="/advanced-laparoscopic-surgery/splenectomy" element={subProcedure(SC.lapSplenectomyData, surgeryGIImg)} />
             <Route path="/advanced-laparoscopic-surgery/starr" element={subProcedure(SC.lapSTARRData, surgeryColonImg)} />
             <Route path="/advanced-laparoscopic-surgery/rectal-prolapse" element={subProcedure(SC.lapRectalProlapseData, surgeryColonImg)} />
