@@ -58,15 +58,17 @@ const InlineAppointmentForm = ({
           : "bg-card border-border shadow-medical"
       }`}
     >
-      <div className="flex items-center gap-2 mb-2">
-        <Calendar className={`h-5 w-5 ${isDark ? "text-secondary" : "text-secondary"}`} />
+      <div className="mb-4">
+        <p className={`text-sm mb-1 ${isDark ? "text-primary-foreground/70" : "text-muted-foreground"}`}>Book Your Consultation with</p>
         <h3 className={`text-xl font-heading font-bold ${isDark ? "text-primary-foreground" : "text-foreground"}`}>
-          {heading}
+          Dr. Randeep Wadhawan
         </h3>
+        <p className={`text-xs leading-relaxed mt-1 ${isDark ? "text-primary-foreground/60" : "text-muted-foreground"}`}>
+          MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)<br />
+          Chairman – GI, Bariatric, Laparoscopic &amp; Robotic Surgery<br />
+          Max Super Speciality Hospital Dwarka
+        </p>
       </div>
-      <p className={`text-sm mb-6 ${isDark ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-        {subheading}
-      </p>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="grid sm:grid-cols-2 gap-4">

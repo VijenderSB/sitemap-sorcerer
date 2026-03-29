@@ -76,18 +76,17 @@ const StickyAppointmentForm = () => {
             >
               <div className="p-6">
                 {/* Header */}
-                <div className="flex items-center justify-between mb-6">
-                  <div className="flex items-center gap-2">
-                    <Calendar className="h-5 w-5 text-secondary" />
-                    <h3 className="text-lg font-heading font-bold text-foreground">Book Appointment</h3>
-                  </div>
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-sm text-muted-foreground">Book Your Consultation with</p>
                   <button onClick={() => setOpen(false)} className="p-1.5 rounded-full hover:bg-muted transition-colors" aria-label="Close">
                     <X className="h-5 w-5 text-muted-foreground" />
                   </button>
                 </div>
-
-                <p className="text-sm text-muted-foreground mb-6">
-                  Fill in your details and we'll get back to you within 24 hours.
+                <h3 className="text-lg font-heading font-bold text-foreground">Dr. Randeep Wadhawan</h3>
+                <p className="text-xs text-muted-foreground leading-relaxed mt-1 mb-6">
+                  MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)<br />
+                  Chairman – GI, Bariatric, Laparoscopic &amp; Robotic Surgery<br />
+                  Max Super Speciality Hospital Dwarka
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-4">

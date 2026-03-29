@@ -17,10 +17,10 @@ $is_dark    = ($variant === 'dark');
 
 <div class="inline-appt-form <?php echo $is_dark ? 'variant-dark' : ''; ?>">
     <div class="appt-form-header">
-        <span class="appt-icon">📅</span>
-        <h3><?php echo esc_html($heading); ?></h3>
+        <p class="appt-consult-label">Book Your Consultation with</p>
+        <h3>Dr. Randeep Wadhawan</h3>
+        <p class="appt-credentials">MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)<br>Chairman – GI, Bariatric, Laparoscopic &amp; Robotic Surgery<br>Max Super Speciality Hospital Dwarka</p>
     </div>
-    <p class="appt-form-sub"><?php echo esc_html($subheading); ?></p>
 
     <form class="drw-appointment-form" data-variant="<?php echo esc_attr($variant); ?>">
         <div class="form-row-2">
