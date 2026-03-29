@@ -183,7 +183,7 @@ const App = () => (
             <Route path="/robotic-advanced-gi-surgery/pancreatic" element={subProcedure(SC.roboticPancreaticData, whippleProcedureImg)} />
             <Route path="/robotic-advanced-gi-surgery/splenectomy" element={subProcedure(SC.roboticSplenectomyData, surgeryGIImg)} />
             <Route path="/robotic-advanced-gi-surgery/achalasia" element={subProcedure(SC.roboticAchalasiaData, surgeryGIImg)} />
-            <Route path="/robotic-advanced-gi-surgery/portal-hypertension" element={subProcedure(SC.roboticPortalHTData, surgeryGIImg)} />
+            <Route path="/robotic-advanced-gi-surgery/portal-hypertension" element={subProcedure(SC.roboticPortalHTData, portalHypertensionImg)} />
 
             {/* Laparoscopic Surgery */}
             <Route path="/laparoscopic-surgery" element={
