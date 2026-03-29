@@ -90,11 +90,14 @@ const LeadCapturePopup = () => {
         {/* Header Banner */}
         <div className="bg-gradient-to-r from-primary to-secondary p-6 text-primary-foreground">
           <DialogHeader>
+            <p className="text-sm text-primary-foreground/80">Book Your Consultation with</p>
             <DialogTitle className="text-xl font-bold text-primary-foreground">
-              Book Your Consultation
+              Dr. Randeep Wadhawan
             </DialogTitle>
-            <DialogDescription className="text-primary-foreground/90 mt-1">
-              With Dr. Randeep Wadhawan — 30+ Years of Surgical Excellence
+            <DialogDescription className="text-primary-foreground/80 mt-1 text-xs leading-relaxed">
+              MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)<br />
+              Chairman – GI, Bariatric, Laparoscopic &amp; Robotic Surgery<br />
+              Max Super Speciality Hospital Dwarka
             </DialogDescription>
           </DialogHeader>
         </div>
