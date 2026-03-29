@@ -79,7 +79,7 @@ const ProcedureDetailPage = ({
                 <img
                   src={imageSrc}
                   alt={imageAlt || title}
-                  className="rounded-2xl shadow-medical-lg w-full object-cover aspect-[4/3]"
+                  className="rounded-2xl shadow-medical-lg w-full object-contain aspect-[4/3] bg-black/5"
                   loading="lazy"
                 />
               </motion.div>
