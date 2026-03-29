@@ -28,6 +28,7 @@ import pseudopancreaticCystsImg from "@/assets/pseudopancreatic-cysts.png";
 import liverCystsImg from "@/assets/liver-cysts.png";
 import splenectomyImg from "@/assets/splenectomy.png";
 import starrProcedureImg from "@/assets/starr-procedure.png";
+import rectalProlapseImg from "@/assets/rectal-prolapse.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
@@ -232,7 +233,7 @@ const App = () => (
             <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, liverCystsImg)} />
             <Route path="/advanced-laparoscopic-surgery/splenectomy" element={subProcedure(SC.lapSplenectomyData, splenectomyImg)} />
             <Route path="/advanced-laparoscopic-surgery/starr" element={subProcedure(SC.lapSTARRData, starrProcedureImg)} />
-            <Route path="/advanced-laparoscopic-surgery/rectal-prolapse" element={subProcedure(SC.lapRectalProlapseData, surgeryColonImg)} />
+            <Route path="/advanced-laparoscopic-surgery/rectal-prolapse" element={subProcedure(SC.lapRectalProlapseData, rectalProlapseImg)} />
 
             <Route path="/bariatric-surgery" element={
               <ProcedureDetailPage title="Bariatric Surgery" subtitle="Comprehensive weight loss surgery solutions for lasting health transformation. Centre of Excellence accredited by OSSI." overview="Dr. Wadhawan specializes in minimally invasive robotic-assisted procedures for weight loss. With over 2,000 bariatric procedures at a Centre of Excellence accredited by OSSI, and trained at the Centre of Excellence in Frankfurt, Germany, the program combines surgical expertise with comprehensive pre- and post-operative support. The state-of-the-art robotic surgery program uses the Da Vinci surgical system with an experienced team of surgeons, nurses, and technicians." procedures={bariatricProcedures} benefits={["60-80% excess weight loss","Diabetes remission in up to 80%","Resolution of sleep apnea","Improvement in hypertension","Better quality of life","Long-term health benefits","Centre of Excellence accredited by OSSI"]} />
