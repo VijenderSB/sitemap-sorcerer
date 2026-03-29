@@ -23,6 +23,7 @@ import surgeryLapImg from "@/assets/surgery-laparoscopic.jpg";
 import surgeryBypassImg from "@/assets/surgery-gastric-bypass.jpg";
 import surgeryColonImg from "@/assets/surgery-colon.jpg";
 import colonSurgeryImg from "@/assets/colon-surgery.png";
+import bileDuctStonesImg from "@/assets/bile-duct-stones.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
@@ -222,7 +223,7 @@ const App = () => (
                 { name: "Rectal Prolapse Surgery", description: "Laparoscopic ventral mesh rectopexy for complete and recurrent rectal prolapse.", href: "/advanced-laparoscopic-surgery/rectal-prolapse" },
               ]} benefits={["35,000+ laparoscopic surgeries performed","European Coloproctology Society certified","5,000+ MIPH & STARR procedures","Trained by Dr. Antonio Longo (STARR inventor)","Expert hepatobiliary care","Minimally invasive keyhole approach"]} />
             } />
-            <Route path="/advanced-laparoscopic-surgery/bile-duct-stones" element={subProcedure(SC.lapBileDuctStonesData, surgeryGIImg)} />
+            <Route path="/advanced-laparoscopic-surgery/bile-duct-stones" element={<Route path="/advanced-laparoscopic-surgery/bile-duct-stones" element={subProcedure(SC.lapBileDuctStonesData, bileDuctStonesImg)} />} />
             <Route path="/advanced-laparoscopic-surgery/pseudopancreatic-cysts" element={subProcedure(SC.lapPseudopancreaticCystsData, surgeryGIImg)} />
             <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, surgeryLiverImg)} />
             <Route path="/advanced-laparoscopic-surgery/splenectomy" element={subProcedure(SC.lapSplenectomyData, surgeryGIImg)} />
