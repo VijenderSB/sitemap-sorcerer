@@ -23,6 +23,7 @@ import surgeryLapImg from "@/assets/surgery-laparoscopic.jpg";
 import surgeryBypassImg from "@/assets/surgery-gastric-bypass.jpg";
 import surgeryColonImg from "@/assets/surgery-colon.jpg";
 import colonSurgeryImg from "@/assets/colon-surgery.png";
+import bileDuctStonesImg from "@/assets/bile-duct-stones.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
