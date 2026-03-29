@@ -28,6 +28,7 @@ import pseudopancreaticCystsImg from "@/assets/pseudopancreatic-cysts.png";
 import liverCystsImg from "@/assets/liver-cysts.png";
 import splenectomyImg from "@/assets/splenectomy.png";
 import starrProcedureImg from "@/assets/starr-procedure.png";
+import rectalProlapseImg from "@/assets/rectal-prolapse.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
