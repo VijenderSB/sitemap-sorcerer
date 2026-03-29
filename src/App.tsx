@@ -22,6 +22,7 @@ import surgeryHerniaImg from "@/assets/surgery-hernia.jpg";
 import surgeryLapImg from "@/assets/surgery-laparoscopic.jpg";
 import surgeryBypassImg from "@/assets/surgery-gastric-bypass.jpg";
 import surgeryColonImg from "@/assets/surgery-colon.jpg";
+import colonSurgeryImg from "@/assets/colon-surgery.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
@@ -164,7 +165,7 @@ const App = () => (
             <Route path="/robotic-gi-surgery/hernia" element={subProcedure(SC.roboticHerniaData, surgeryHerniaImg)} />
             <Route path="/robotic-gi-surgery/gallbladder" element={subProcedure(SC.roboticGallbladderData, roboticTrocarImg)} />
             <Route path="/robotic-gi-surgery/appendix" element={subProcedure(SC.roboticAppendixData, surgeryRoboticImg)} />
-            <Route path="/robotic-gi-surgery/colon" element={subProcedure(SC.roboticColonData, surgeryColonImg)} />
+            <Route path="/robotic-gi-surgery/colon" element={subProcedure(SC.roboticColonData, colonSurgeryImg)} />
             <Route path="/robotic-gi-surgery/rectal" element={subProcedure(SC.roboticRectalData, surgeryColonImg)} />
             <Route path="/robotic-gi-surgery/cancer" element={
               <ProcedureDetailPage title="Robotic GI Cancer Surgery" subtitle="Precision oncological surgery for gastrointestinal cancers using the Da Vinci system." breadcrumb="Robotic Surgery > GI > Cancer" overview="Robotic-assisted cancer surgery provides the precision needed for complete tumor removal with clear margins, adequate lymph node dissection, and preservation of surrounding healthy tissue. This translates to better oncological outcomes and faster recovery." imageSrc={surgeryRoboticImg} procedures={[
