@@ -109,6 +109,7 @@ const navigation: NavItem[] = [
           { name: "Rectal Prolapse", href: "/advanced-laparoscopic-surgery/rectal-prolapse" },
         ],
       },
+    ],
   },
   {
     name: "Procedures",
