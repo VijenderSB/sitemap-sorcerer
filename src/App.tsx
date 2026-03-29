@@ -16,6 +16,7 @@ import surgeryGIImg from "@/assets/surgery-gi.jpg";
 import surgerySleeveImg from "@/assets/surgery-sleeve.jpg";
 import surgeryLiverImg from "@/assets/surgery-liver-pancreas.jpg";
 import whippleProcedureImg from "@/assets/whipple-procedure.png";
+import roboticTrocarImg from "@/assets/robotic-surgery-trocar.png";
 import surgeryHerniaImg from "@/assets/surgery-hernia.jpg";
 import surgeryLapImg from "@/assets/surgery-laparoscopic.jpg";
 import surgeryBypassImg from "@/assets/surgery-gastric-bypass.jpg";
