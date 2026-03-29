@@ -24,13 +24,13 @@ const CTASection = () => (
               Book Consultation
               <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-          <Button size="lg" variant="outline" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+          <Button size="lg" variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
             <a href="tel:+917042373880">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </a>
           </Button>
-          <Button size="lg" variant="outline" asChild className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+          <Button size="lg" variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
             <a href="https://wa.me/919810155826" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-4 w-4" />
               WhatsApp
