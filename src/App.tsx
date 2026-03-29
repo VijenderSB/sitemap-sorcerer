@@ -25,6 +25,7 @@ import surgeryColonImg from "@/assets/surgery-colon.jpg";
 import colonSurgeryImg from "@/assets/colon-surgery.png";
 import bileDuctStonesImg from "@/assets/bile-duct-stones.png";
 import pseudopancreaticCystsImg from "@/assets/pseudopancreatic-cysts.png";
+import liverCystsImg from "@/assets/liver-cysts.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
