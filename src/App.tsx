@@ -16,6 +16,7 @@ import surgeryGIImg from "@/assets/surgery-gi.jpg";
 import surgerySleeveImg from "@/assets/surgery-sleeve.jpg";
 import surgeryLiverImg from "@/assets/surgery-liver-pancreas.jpg";
 import whippleProcedureImg from "@/assets/whipple-procedure.png";
+import roboticTrocarImg from "@/assets/robotic-surgery-trocar.png";
 import surgeryHerniaImg from "@/assets/surgery-hernia.jpg";
 import surgeryLapImg from "@/assets/surgery-laparoscopic.jpg";
 import surgeryBypassImg from "@/assets/surgery-gastric-bypass.jpg";
@@ -160,7 +161,7 @@ const App = () => (
               <ProcedureDetailPage title="Robotic GI Surgery" subtitle="State-of-the-art robotic gastrointestinal surgeries using the Da Vinci system for complex abdominal conditions." breadcrumb="Robotic Surgery > GI Surgery" overview="Dr. Wadhawan specializes in routine and advanced gastrointestinal surgeries with a focus on Upper Gastrointestinal and Colorectal procedures. With over 35,000 laparoscopic surgeries performed and fellowship training under Prof. Yuri Novitsky at University Hospitals, Cleveland, USA for Abdominal Wall Reconstruction, he brings unparalleled expertise to robotic GI surgery." procedures={roboticGIProcedures} benefits={["3D HD visualization for complex anatomy","Precise dissection around critical structures","Less blood loss and fewer complications","Faster patient recovery","Smaller incisions","Surgeon-controlled 360° wrist articulation","Over 35,000 procedures experience"]} />
             } />
             <Route path="/robotic-gi-surgery/hernia" element={subProcedure(SC.roboticHerniaData, surgeryHerniaImg)} />
-            <Route path="/robotic-gi-surgery/gallbladder" element={subProcedure(SC.roboticGallbladderData, surgeryGIImg)} />
+            <Route path="/robotic-gi-surgery/gallbladder" element={subProcedure(SC.roboticGallbladderData, roboticTrocarImg)} />
             <Route path="/robotic-gi-surgery/appendix" element={subProcedure(SC.roboticAppendixData, surgeryRoboticImg)} />
             <Route path="/robotic-gi-surgery/colon" element={subProcedure(SC.roboticColonData, surgeryColonImg)} />
             <Route path="/robotic-gi-surgery/rectal" element={subProcedure(SC.roboticRectalData, surgeryColonImg)} />
