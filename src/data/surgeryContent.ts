@@ -1308,3 +1308,313 @@ export const lapGastricCancerData: SurgeryPageData = {
   ],
   imageAlt: "Laparoscopic Gastric Cancer Surgery",
 };
+
+// ===================== ADVANCED LAPAROSCOPIC SURGERY =====================
+
+export const lapBileDuctStonesData: SurgeryPageData = {
+  title: "Common Bile Duct Stones (Laparoscopic & Endoscopic)",
+  subtitle: "Minimally invasive treatment for choledocholithiasis — bile duct stones removed without open surgery.",
+  breadcrumb: "Advanced Laparoscopic > Bile Duct Stones",
+  overview: "Bile duct stones (choledocholithiasis) are gallstones present in the common bile duct. They can form in the bile duct or migrate from the gallbladder. Once a stone gets stuck causing blockage, medical intervention is required — otherwise inflammation, bacterial infection, and severe organ damage to the pancreas and liver can occur. Dr. Randeep Wadhawan and his multidisciplinary team provide the latest minimally invasive treatments for bile duct stones with expertise from over 35,000 minimal access surgeries.",
+  sections: [
+    {
+      title: "Symptoms",
+      icon: "heart",
+      bullets: [
+        "Irregular severe abdominal pain lasting hours",
+        "Nausea and vomiting",
+        "Fever",
+        "Jaundice (yellowing of skin and eyes)",
+        "Dark urine and pale stools",
+      ],
+    },
+    {
+      title: "Treatment Approach",
+      icon: "stethoscope",
+      bullets: [
+        "ERCP (Endoscopic Retrograde Cholangiopancreatography)",
+        "Laparoscopic common bile duct exploration",
+        "Combined laparoscopic cholecystectomy + CBD exploration",
+        "Intraoperative cholangiography for stone detection",
+        "Same-session gallbladder removal when indicated",
+      ],
+    },
+    {
+      title: "Why Minimally Invasive",
+      icon: "zap",
+      bullets: [
+        "No large abdominal incision",
+        "Shorter hospital stay (1–3 days)",
+        "Faster return to normal activities",
+        "Lower risk of wound complications",
+        "Combined approach avoids multiple procedures",
+      ],
+    },
+  ],
+  benefits: [
+    "Expert in 35,000+ minimally invasive surgeries",
+    "Combined laparoscopic + endoscopic approach",
+    "Same-session gallbladder and bile duct treatment",
+    "Shorter hospital stay",
+    "Faster recovery than open surgery",
+    "Multidisciplinary team approach",
+  ],
+  imageAlt: "Common Bile Duct Stones Treatment",
+};
+
+export const lapPseudopancreaticCystsData: SurgeryPageData = {
+  title: "Laparoscopy for Pseudopancreatic Cysts",
+  subtitle: "Minimally invasive drainage and treatment for pancreatic pseudocysts.",
+  breadcrumb: "Advanced Laparoscopic > Pseudopancreatic Cysts",
+  overview: "Pancreatic pseudocysts are fluid-filled sacs that develop on or around the pancreas, typically after pancreatitis. While small pseudocysts without symptoms can be treated conservatively, most cases require intervention. Dr. Wadhawan offers laparoscopic cystogastrostomy and cystojejunostomy — advanced minimally invasive techniques for definitive internal drainage of pseudocysts.",
+  sections: [
+    {
+      title: "Symptoms",
+      icon: "heart",
+      bullets: [
+        "Abdominal pain and bloating",
+        "Nausea and vomiting",
+        "Appetite loss and weight loss",
+        "Diarrhea",
+        "Fever",
+        "Tender abdominal mass",
+        "Jaundice (yellowing of skin and eyes)",
+      ],
+    },
+    {
+      title: "Treatment Options",
+      icon: "stethoscope",
+      bullets: [
+        "Endoscopic trans-gastric drainage",
+        "Imaging-guided percutaneous drainage",
+        "Laparoscopic cystogastrostomy",
+        "Laparoscopic cystojejunostomy",
+        "Open surgery for complex cases",
+      ],
+    },
+    {
+      title: "Laparoscopic Advantages",
+      icon: "zap",
+      bullets: [
+        "Internal drainage for permanent resolution",
+        "Keyhole approach — minimal scarring",
+        "Shorter hospital stay than open surgery",
+        "Lower recurrence rates with internal drainage",
+        "Combined with other procedures if needed",
+      ],
+    },
+  ],
+  benefits: [
+    "Expert in complex pancreatic surgery",
+    "Laparoscopic internal drainage techniques",
+    "Lower recurrence than external drainage",
+    "Minimally invasive approach",
+    "Comprehensive post-operative care",
+    "Multidisciplinary team at Max Hospital",
+  ],
+  imageAlt: "Laparoscopy for Pseudopancreatic Cysts",
+};
+
+export const lapLiverCystsData: SurgeryPageData = {
+  title: "Laparoscopy in Various Liver Cysts",
+  subtitle: "Minimally invasive excision and treatment for symptomatic liver cysts.",
+  breadcrumb: "Advanced Laparoscopic > Liver Cysts",
+  overview: "Symptomatic simple liver cysts require treatment. Laparoscopic liver cyst excision is a straightforward, well-tolerated procedure. The exposed portion of the cyst wall is excised and omentum is secured into the remaining cavity to prevent recurrence. This approach is effective for single simple cysts, multiple simple cysts, and selected cases of polycystic liver disease — even in patients with previous abdominal operations or failed needle aspirations.",
+  sections: [
+    {
+      title: "Types of Liver Cysts",
+      icon: "stethoscope",
+      bullets: [
+        "Single simple liver cysts",
+        "Multiple simple liver cysts",
+        "Polycystic liver disease",
+        "Parasitic cysts (hydatid cysts)",
+        "Cysts causing compression symptoms",
+      ],
+    },
+    {
+      title: "Laparoscopic Technique",
+      icon: "activity",
+      bullets: [
+        "Cyst wall excision (fenestration/deroofing)",
+        "Omental packing to prevent recurrence",
+        "Suitable even after previous abdominal surgery",
+        "Effective after failed needle aspirations",
+        "Simultaneous treatment of multiple cysts",
+      ],
+    },
+    {
+      title: "Recovery",
+      icon: "clock",
+      bullets: [
+        "Hospital stay: 1–3 days",
+        "Minimal post-operative pain",
+        "Faster return to normal activities",
+        "Low recurrence rate with omental packing",
+        "Regular ultrasound follow-up",
+      ],
+    },
+  ],
+  benefits: [
+    "Proven laparoscopic technique",
+    "Effective even after failed aspirations",
+    "Omental packing prevents recurrence",
+    "Suitable for multiple cyst types",
+    "Minimal scarring and faster recovery",
+    "Expert hepatobiliary care",
+  ],
+  imageAlt: "Laparoscopy for Liver Cysts",
+};
+
+export const lapSplenectomyData: SurgeryPageData = {
+  title: "Laparoscopic Splenectomy",
+  subtitle: "Keyhole surgery for safe spleen removal — treating blood disorders and splenic conditions.",
+  breadcrumb: "Advanced Laparoscopic > Splenectomy",
+  overview: "Laparoscopic splenectomy is a keyhole surgery to remove all or part of the spleen. The spleen removes old and damaged blood cells and produces lymphocytes for immunity. When damaged by blood diseases, infections, cysts, tumors, or injury, the spleen swells and blocks blood flow, affecting multiple organs especially the liver. Dr. Wadhawan has extensive expertise in laparoscopic splenectomy with state-of-the-art infrastructure.",
+  sections: [
+    {
+      title: "When Splenectomy Is Advised",
+      icon: "heart",
+      bullets: [
+        "Spleen damaged by blood diseases (ITP, spherocytosis)",
+        "Splenic cysts and tumors",
+        "Traumatic splenic injury",
+        "Certain lymphomas and leukemias",
+        "Hypersplenism with cytopenias",
+      ],
+    },
+    {
+      title: "Laparoscopic Approach",
+      icon: "stethoscope",
+      bullets: [
+        "3–4 small keyhole incisions",
+        "Controlled vascular ligation of splenic hilum",
+        "Specimen retrieval in endobag",
+        "Minimal blood loss",
+        "Conversion to open if spleen too large",
+      ],
+    },
+    {
+      title: "Recovery & Precautions",
+      icon: "clock",
+      bullets: [
+        "Hospital stay: 2–3 days",
+        "Pre-operative vaccination (pneumococcal, meningococcal)",
+        "Lifelong infection awareness post-splenectomy",
+        "Faster recovery than open surgery",
+        "Coordinated hematology follow-up",
+      ],
+    },
+  ],
+  benefits: [
+    "Expert in laparoscopic splenic surgery",
+    "Minimal blood loss with controlled dissection",
+    "Shorter hospital stay than open approach",
+    "Less post-operative pain",
+    "Faster return to normal activities",
+    "Coordinated hematology care",
+  ],
+  imageAlt: "Laparoscopic Splenectomy",
+};
+
+export const lapSTARRData: SurgeryPageData = {
+  title: "STARR (Stapled Trans-Anal Rectal Resection)",
+  subtitle: "Advanced minimally invasive treatment for Obstructed Defecation Syndrome — 5,000+ procedures performed.",
+  breadcrumb: "Advanced Laparoscopic > STARR",
+  overview: "Stapled Transanal Rectal Resection (STARR) is a minimally invasive surgery for chronic constipation caused by Obstructed Defecation Syndrome (ODS). The surgeon removes excess rectal tissue through the anus without external incisions, leaving no visible scars. Dr. Wadhawan is one of very few surgeons trained in STARR, having completed a certified course in coloproctology with Dr. Antonio Longo (inventor and pioneer of Stapled Haemorrhoidectomy and STARR procedures) at Saint Elizabeth Hospital, Vienna, Austria.",
+  sections: [
+    {
+      title: "Symptoms of ODS",
+      icon: "heart",
+      bullets: [
+        "Feeling of stool getting stuck",
+        "Using fingers to assist bowel movement",
+        "Frequent need to go to the toilet",
+        "Excessive straining during defecation",
+        "Incomplete evacuation sensation",
+      ],
+    },
+    {
+      title: "The STARR Procedure",
+      icon: "stethoscope",
+      bullets: [
+        "Trans-anal approach — no external incisions",
+        "Removes excess rectal tissue causing obstruction",
+        "Restores normal rectal anatomy",
+        "No visible scars",
+        "One-day discharge in most cases",
+      ],
+    },
+    {
+      title: "Expert Credentials",
+      icon: "shield",
+      bullets: [
+        "Trained by Dr. Antonio Longo (inventor of STARR)",
+        "Certified course at Saint Elizabeth Hospital, Vienna",
+        "5,000+ MIPH & STARR procedures performed",
+        "European Coloproctology Society certified",
+        "One of very few trained STARR surgeons in India",
+      ],
+    },
+  ],
+  benefits: [
+    "Trained by the inventor of STARR — Dr. Antonio Longo",
+    "5,000+ MIPH & STARR procedures",
+    "No external incisions or visible scars",
+    "Same-day or next-day discharge",
+    "European Coloproctology Society certified",
+    "Restores normal defecation function",
+  ],
+  imageAlt: "STARR Procedure",
+};
+
+export const lapRectalProlapseData: SurgeryPageData = {
+  title: "Laparoscopic Surgery for Rectal Prolapse",
+  subtitle: "Keyhole rectopexy for rectal prolapse — expert repair with faster recovery.",
+  breadcrumb: "Advanced Laparoscopic > Rectal Prolapse",
+  overview: "In rectal prolapse, the rectum (lower end of the colon above the anus) stretches and protrudes out of the anus. This weakness of the anal sphincter muscle often leads to stool leakage or mucus discharge. The condition is more common in women. Dr. Wadhawan has vast experience managing complex rectal prolapse cases using laparoscopic ventral mesh rectopexy and other minimally invasive techniques.",
+  sections: [
+    {
+      title: "Types of Rectal Prolapse",
+      icon: "stethoscope",
+      bullets: [
+        "Full-thickness (complete) rectal prolapse",
+        "Mucosal prolapse",
+        "Internal prolapse (intussusception)",
+        "Associated pelvic floor weakness",
+        "Recurrent prolapse after previous repair",
+      ],
+    },
+    {
+      title: "Laparoscopic Repair",
+      icon: "activity",
+      bullets: [
+        "Laparoscopic ventral mesh rectopexy",
+        "Keyhole approach — 3–4 small incisions",
+        "Mesh reinforcement to prevent recurrence",
+        "Nerve-sparing technique preserving function",
+        "Suitable for complex and recurrent cases",
+      ],
+    },
+    {
+      title: "Benefits of Laparoscopic Approach",
+      icon: "zap",
+      bullets: [
+        "Less blood loss than open surgery",
+        "Faster return to bowel function",
+        "Faster return to normal diet",
+        "Shorter hospital stay (3–5 days)",
+        "Lower recurrence rates with mesh rectopexy",
+      ],
+    },
+  ],
+  benefits: [
+    "Expert in complex rectal prolapse repair",
+    "Laparoscopic ventral mesh rectopexy",
+    "Less blood loss and faster recovery",
+    "Shorter hospital stay",
+    "Lower recurrence rates",
+    "European Coloproctology Society certified",
+  ],
+  imageAlt: "Laparoscopic Rectal Prolapse Surgery",
+};
