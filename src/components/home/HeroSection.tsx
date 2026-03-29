@@ -88,11 +88,15 @@ const HeroSection = () => {
               onSubmit={handleSubmit}
               className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 backdrop-blur-md p-6 sm:p-8 space-y-4"
             >
-              <div className="flex items-center gap-2 mb-2">
-                <Calendar className="h-5 w-5 text-secondary" />
-                <h3 className="text-lg font-heading font-bold text-primary-foreground">Book Appointment</h3>
+              <div className="mb-4">
+                <p className="text-sm text-primary-foreground/70 mb-1">Book Your Consultation with</p>
+                <h3 className="text-lg font-heading font-bold text-primary-foreground">Dr. Randeep Wadhawan</h3>
+                <p className="text-xs text-primary-foreground/60 leading-relaxed mt-1">
+                  MBBS, MS, FICS, FALS, FMBS, FACS(USA), FRCS(Ed)<br />
+                  Chairman – GI, Bariatric, Laparoscopic &amp; Robotic Surgery<br />
+                  Max Super Speciality Hospital Dwarka
+                </p>
               </div>
-              <p className="text-sm text-primary-foreground/60 -mt-2 mb-4">Fill in your details and we'll get back to you within 24 hours.</p>
 
               <Input
                 placeholder="Full Name *"
