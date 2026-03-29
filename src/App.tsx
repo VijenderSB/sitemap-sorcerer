@@ -211,7 +211,24 @@ const App = () => (
             <Route path="/laparoscopic-surgery/gi/rectal" element={subProcedure(SC.lapRectalData, surgeryColonImg)} />
             <Route path="/laparoscopic-surgery/gi/gastric-cancer" element={subProcedure(SC.lapGastricCancerData, surgeryGIImg)} />
 
-            {/* Procedures */}
+            {/* Advanced Laparoscopic Surgery */}
+            <Route path="/advanced-laparoscopic-surgery" element={
+              <ProcedureDetailPage title="Advanced Laparoscopic Surgery" subtitle="Complex minimally invasive procedures for hepatobiliary, splenic, and colorectal conditions." overview="Dr. Wadhawan offers advanced laparoscopic procedures beyond routine GI surgery — including bile duct exploration, pancreatic pseudocyst drainage, liver cyst excision, splenectomy, STARR for obstructed defecation, and rectal prolapse repair. With over 35,000 laparoscopic surgeries and European Coloproctology Society certification, patients receive expert care through proven minimally invasive techniques." procedures={[
+                { name: "Common Bile Duct Stones", description: "Laparoscopic & endoscopic treatment for choledocholithiasis — bile duct stones removed without open surgery.", href: "/advanced-laparoscopic-surgery/bile-duct-stones" },
+                { name: "Pseudopancreatic Cysts", description: "Laparoscopic cystogastrostomy and cystojejunostomy for pancreatic pseudocyst drainage.", href: "/advanced-laparoscopic-surgery/pseudopancreatic-cysts" },
+                { name: "Liver Cysts", description: "Laparoscopic excision and treatment for symptomatic simple and complex liver cysts.", href: "/advanced-laparoscopic-surgery/liver-cysts" },
+                { name: "Laparoscopic Splenectomy", description: "Keyhole spleen removal for blood disorders, cysts, tumors, and splenic conditions.", href: "/advanced-laparoscopic-surgery/splenectomy" },
+                { name: "STARR Procedure", description: "Stapled Trans-Anal Rectal Resection for Obstructed Defecation Syndrome — 5,000+ procedures.", href: "/advanced-laparoscopic-surgery/starr" },
+                { name: "Rectal Prolapse Surgery", description: "Laparoscopic ventral mesh rectopexy for complete and recurrent rectal prolapse.", href: "/advanced-laparoscopic-surgery/rectal-prolapse" },
+              ]} benefits={["35,000+ laparoscopic surgeries performed","European Coloproctology Society certified","5,000+ MIPH & STARR procedures","Trained by Dr. Antonio Longo (STARR inventor)","Expert hepatobiliary care","Minimally invasive keyhole approach"]} />
+            } />
+            <Route path="/advanced-laparoscopic-surgery/bile-duct-stones" element={subProcedure(SC.lapBileDuctStonesData, surgeryGIImg)} />
+            <Route path="/advanced-laparoscopic-surgery/pseudopancreatic-cysts" element={subProcedure(SC.lapPseudopancreaticCystsData, surgeryGIImg)} />
+            <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, surgeryLiverImg)} />
+            <Route path="/advanced-laparoscopic-surgery/splenectomy" element={subProcedure(SC.lapSplenectomyData, surgeryGIImg)} />
+            <Route path="/advanced-laparoscopic-surgery/starr" element={subProcedure(SC.lapSTARRData, surgeryColonImg)} />
+            <Route path="/advanced-laparoscopic-surgery/rectal-prolapse" element={subProcedure(SC.lapRectalProlapseData, surgeryColonImg)} />
+
             <Route path="/bariatric-surgery" element={
               <ProcedureDetailPage title="Bariatric Surgery" subtitle="Comprehensive weight loss surgery solutions for lasting health transformation. Centre of Excellence accredited by OSSI." overview="Dr. Wadhawan specializes in minimally invasive robotic-assisted procedures for weight loss. With over 2,000 bariatric procedures at a Centre of Excellence accredited by OSSI, and trained at the Centre of Excellence in Frankfurt, Germany, the program combines surgical expertise with comprehensive pre- and post-operative support. The state-of-the-art robotic surgery program uses the Da Vinci surgical system with an experienced team of surgeons, nurses, and technicians." procedures={bariatricProcedures} benefits={["60-80% excess weight loss","Diabetes remission in up to 80%","Resolution of sleep apnea","Improvement in hypertension","Better quality of life","Long-term health benefits","Centre of Excellence accredited by OSSI"]} />
             } />
