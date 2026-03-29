@@ -97,6 +97,18 @@ const navigation: NavItem[] = [
           { name: "Lap. Rectal Surgery", href: "/laparoscopic-surgery/gi/rectal" },
         ],
       },
+      {
+        name: "Advanced Laparoscopic",
+        href: "/advanced-laparoscopic-surgery",
+        children: [
+          { name: "Bile Duct Stones", href: "/advanced-laparoscopic-surgery/bile-duct-stones" },
+          { name: "Pseudopancreatic Cysts", href: "/advanced-laparoscopic-surgery/pseudopancreatic-cysts" },
+          { name: "Liver Cysts", href: "/advanced-laparoscopic-surgery/liver-cysts" },
+          { name: "Lap. Splenectomy", href: "/advanced-laparoscopic-surgery/splenectomy" },
+          { name: "STARR Procedure", href: "/advanced-laparoscopic-surgery/starr" },
+          { name: "Rectal Prolapse", href: "/advanced-laparoscopic-surgery/rectal-prolapse" },
+        ],
+      },
     ],
   },
   {
