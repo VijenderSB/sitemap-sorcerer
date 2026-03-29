@@ -178,7 +178,7 @@ const App = () => (
               <ProcedureDetailPage title="Robotic Advanced GI Surgery" subtitle="Complex hepato-pancreato-biliary and advanced GI procedures with Da Vinci robotic precision." breadcrumb="Robotic Surgery > Advanced GI" overview="Advanced GI surgery encompasses complex procedures involving the liver, pancreas, spleen, esophagus, and portal system. Dr. Wadhawan's team performs these intricate surgeries with robotic assistance for enhanced safety and precision near major blood vessels." imageSrc={surgeryLiverImg} procedures={roboticAdvancedGIProcedures} benefits={["Expert handling of complex anatomy","Precise dissection near major vessels","Enhanced 3D visualization","Reduced blood loss","Faster recovery from major procedures","Multi-disciplinary team support","State-of-the-art infrastructure"]} />
             } />
             <Route path="/robotic-advanced-gi-surgery/liver" element={subProcedure(SC.roboticLiverData, surgeryLiverImg)} />
-            <Route path="/robotic-advanced-gi-surgery/pancreatic" element={subProcedure(SC.roboticPancreaticData, surgeryLiverImg)} />
+            <Route path="/robotic-advanced-gi-surgery/pancreatic" element={subProcedure(SC.roboticPancreaticData, whippleProcedureImg)} />
             <Route path="/robotic-advanced-gi-surgery/splenectomy" element={subProcedure(SC.roboticSplenectomyData, surgeryGIImg)} />
             <Route path="/robotic-advanced-gi-surgery/achalasia" element={subProcedure(SC.roboticAchalasiaData, surgeryGIImg)} />
             <Route path="/robotic-advanced-gi-surgery/portal-hypertension" element={subProcedure(SC.roboticPortalHTData, surgeryGIImg)} />
