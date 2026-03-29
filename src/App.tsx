@@ -27,6 +27,7 @@ import bileDuctStonesImg from "@/assets/bile-duct-stones.png";
 import pseudopancreaticCystsImg from "@/assets/pseudopancreatic-cysts.png";
 import liverCystsImg from "@/assets/liver-cysts.png";
 import splenectomyImg from "@/assets/splenectomy.png";
+import starrProcedureImg from "@/assets/starr-procedure.png";
 import Index from "./pages/Index";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
@@ -230,7 +231,7 @@ const App = () => (
             <Route path="/advanced-laparoscopic-surgery/pseudopancreatic-cysts" element={subProcedure(SC.lapPseudopancreaticCystsData, pseudopancreaticCystsImg)} />
             <Route path="/advanced-laparoscopic-surgery/liver-cysts" element={subProcedure(SC.lapLiverCystsData, liverCystsImg)} />
             <Route path="/advanced-laparoscopic-surgery/splenectomy" element={subProcedure(SC.lapSplenectomyData, splenectomyImg)} />
-            <Route path="/advanced-laparoscopic-surgery/starr" element={subProcedure(SC.lapSTARRData, surgeryColonImg)} />
+            <Route path="/advanced-laparoscopic-surgery/starr" element={subProcedure(SC.lapSTARRData, starrProcedureImg)} />
             <Route path="/advanced-laparoscopic-surgery/rectal-prolapse" element={subProcedure(SC.lapRectalProlapseData, surgeryColonImg)} />
 
             <Route path="/bariatric-surgery" element={
